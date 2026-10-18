@@ -4,10 +4,11 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { useLocale } from "./LocaleContext";
+import { withBasePath } from "../paths";
 
 const slides = [
   {
-    src: "/reference-carousel/magazine-jestha.jpg",
+    src: withBasePath("/reference-carousel/magazine-jestha.jpg"),
     title: "के गर्दैछ, स्वरोजगार कोष ?",
     titleEn: "What is the Self-Employment Fund doing?",
     description: "स्वरोजगार सन्देश — ज्येष्ठ",
@@ -17,7 +18,7 @@ const slides = [
     fit: "contain",
   },
   {
-    src: "/reference-carousel/minister-office-appointment.jpg",
+    src: withBasePath("/reference-carousel/minister-office-appointment.jpg"),
     title: "युवा, श्रम तथा रोजगार मन्त्रीको पदबहाली",
     titleEn: "Minister for Youth, Labour and Employment assumes office",
     description: "मिति २०८२/१२/२७",
@@ -27,7 +28,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/minister-assumes-office.jpg",
+    src: withBasePath("/reference-carousel/minister-assumes-office.jpg"),
     title: "युवा तथा खेलकुद मन्त्रीको पदबहाली",
     titleEn: "Minister for Youth and Sports assumes office",
     description: "कोषका सार्वजनिक कार्यक्रम",
@@ -37,7 +38,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/youth-programme-briefing.jpg",
+    src: withBasePath("/reference-carousel/youth-programme-briefing.jpg"),
     title: "जेन्जी युवा लक्षित कार्यक्रम प्रस्तुतिकरण",
     titleEn: "Presentation of a programme for Gen Z youth",
     description: "मन्त्रीज्यू, कोषका पदाधिकारी र युवासहितको छलफल",
@@ -47,7 +48,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/committee-meeting.jpg",
+    src: withBasePath("/reference-carousel/committee-meeting.jpg"),
     title: "कोषका कार्यक्रमबारे जानकारी",
     titleEn: "Briefing on the Fund’s programmes",
     description: "नीति र कार्यक्रमसम्बन्धी भेटघाट",
@@ -57,7 +58,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/oath-and-appointment.jpeg",
+    src: withBasePath("/reference-carousel/oath-and-appointment.jpeg"),
     title: "पद तथा गोपनीयताको शपथ ग्रहण",
     titleEn: "Oath of office and confidentiality",
     description: "कार्यकारी उपाध्यक्षको पदबहाली",
@@ -67,7 +68,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/board-meeting-59.jpeg",
+    src: withBasePath("/reference-carousel/board-meeting-59.jpeg"),
     title: "सञ्चालक समितिको ५९औँ बैठक",
     titleEn: "59th meeting of the Board of Directors",
     description: "मिति २०८२/०५/१२",
@@ -77,7 +78,7 @@ const slides = [
     fit: "cover",
   },
   {
-    src: "/reference-carousel/minister-briefing.jpeg",
+    src: withBasePath("/reference-carousel/minister-briefing.jpeg"),
     title: "युवा तथा खेलकुद मन्त्रीसमक्ष कोषको ब्रिफिङ",
     titleEn: "Fund briefing to the Minister for Youth and Sports",
     description: "कोषका कार्यक्रमबारे जानकारी",

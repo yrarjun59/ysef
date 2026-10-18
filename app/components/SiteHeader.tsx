@@ -9,6 +9,7 @@ import { useLocale } from "./LocaleContext";
 import NepalDateTime from "./NepalDateTime";
 import AccessibilityWidget from "./AccessibilityWidget";
 import { services, notices, resources, officials, galleryAlbums } from "../data";
+import { withBasePath } from "../paths";
 
 const navGroups = [
   { id: "about", ne: "हाम्रोबारे", en: "About", items: [
@@ -124,7 +125,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="masthead wrap">
         <Link href="/" className="brand" aria-label={t("युवा तथा साना व्यवसायी स्वरोजगार कोष गृह पृष्ठ", "YSEF home")}>
-          <Image src="/ysef-emblem.png" width={64} height={64} alt="" className="brand-emblem" priority />
+          <Image src={withBasePath("/ysef-emblem.png")} width={64} height={64} alt="" className="brand-emblem" priority />
           <span className="brand-text">
             <span className="brand-government">{t("नेपाल सरकार", "Government of Nepal")}</span>
             <span className="brand-ministry">{t("युवा, श्रम तथा रोजगार मन्त्रालय", "Ministry of Youth, Labour and Employment")}</span>

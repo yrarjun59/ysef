@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight, ArrowUpRight, BookOpen, FileBarChart2, FileText, Newspaper, ShieldCheck } from "lucide-react";
 import { resources } from "../data";
 import { useLocale } from "./LocaleContext";
+import { withBasePath } from "../paths";
 import styles from "./PublicationsHomeSection.module.css";
 
 const PUBLICATIONS_URL = "https://ysef.gov.np/category/publications/";
@@ -42,7 +43,7 @@ export default function PublicationsHomeSection() {
               <span className={styles.coverWrap}>
                 <Image
                   className={styles.cover}
-                  src="/reference-carousel/magazine-jestha.jpg"
+                  src={withBasePath("/reference-carousel/magazine-jestha.jpg")}
                   alt={lang === "ne" ? "स्वरोजगार सन्देश बुलेटिनको आवरण" : "Cover of the Self-employment Message bulletin"}
                   width={420}
                   height={560}

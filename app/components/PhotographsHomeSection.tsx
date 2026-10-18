@@ -4,9 +4,10 @@ import Image from "next/image";
 import { ArrowRight, ArrowUpRight, Images } from "lucide-react";
 import { galleryAlbums } from "../data";
 import { useLocale } from "./LocaleContext";
+import { withBasePath } from "../paths";
 import styles from "./PhotographsHomeSection.module.css";
 
-const GALLERY_LIST_URL = "/gallery-list";
+const GALLERY_LIST_URL = withBasePath("/gallery-list");
 
 // Detail pages observed on the official YSEF gallery. Entries without a
 // confidently matched detail page go to the official album index.

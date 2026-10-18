@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import NepaliDate from "nepali-date-converter";
 import type { Language } from "./LocaleContext";
+import { withBasePath } from "../paths";
 
 const timezone = "Asia/Kathmandu";
 
@@ -64,7 +65,7 @@ export default function NepalDateTime({ lang }: { lang: Language }) {
 
   return (
     <div className="header-calendar-snapshot" lang={lang} aria-label={dateTime ? `${label}. ${lang === "ne" ? "नेपाल संवत तिथि" : "Nepal Sambat tithi"}: ${dateTime.tithiLabel}` : lang === "ne" ? "नेपालको वर्तमान मिति र समय" : "Current date and time in Nepal"}>
-      <Image className="header-date-flag" src="/nepal-flag-animated.gif" width={50} height={68} alt="" aria-hidden="true" unoptimized priority />
+      <Image className="header-date-flag" src={withBasePath("/nepal-flag-animated.gif")} width={50} height={68} alt="" aria-hidden="true" unoptimized priority />
       <span className="header-calendar-copy">
         <strong>{dateTime ? <time dateTime={now?.toISOString()}>{label}</time> : label}</strong>
         <small>{dateTime ? `${lang === "ne" ? "नेपाल संवत:" : "Nepal Sambat:"} ${dateTime.tithiLabel}` : lang === "ne" ? "तिथि लोड हुँदैछ…" : "Loading today's tithi…"}</small>
