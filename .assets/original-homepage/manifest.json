@@ -1,0 +1,1179 @@
+{
+  "assets": [
+    {
+      "contentType": "text/css",
+      "id": "ec909e44217440e9",
+      "kind": "stylesheet",
+      "name": "bootstrap.min.css",
+      "path": "ec909e44217440e9.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css",
+      "localPath": "ec909e44217440e9.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "233f595036f5260e",
+      "kind": "stylesheet",
+      "name": "slick.min.css",
+      "path": "233f595036f5260e.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css",
+      "localPath": "233f595036f5260e.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "1c76ca73d9fa838a",
+      "kind": "stylesheet",
+      "name": "slick-theme.min.css",
+      "path": "1c76ca73d9fa838a.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css",
+      "localPath": "1c76ca73d9fa838a.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "32242618c0683a65",
+      "kind": "stylesheet",
+      "name": "jquery.fancybox.min.css",
+      "path": "32242618c0683a65.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css",
+      "localPath": "32242618c0683a65.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "1ac6640e3278b55b",
+      "kind": "stylesheet",
+      "name": "nice-select.min.css",
+      "path": "1ac6640e3278b55b.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css",
+      "localPath": "1ac6640e3278b55b.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "dbe397d0d04e2b3f",
+      "kind": "stylesheet",
+      "name": "all.min.css",
+      "path": "dbe397d0d04e2b3f.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+      "localPath": "dbe397d0d04e2b3f.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "80ff1605995a7230",
+      "kind": "stylesheet",
+      "name": "detail-1.css",
+      "path": "80ff1605995a7230.css",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/detail-1.css?v=1",
+      "localPath": "80ff1605995a7230.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "c5dc165b74e9b242",
+      "kind": "stylesheet",
+      "name": "org-table.css",
+      "path": "c5dc165b74e9b242.css",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/org-table.css",
+      "localPath": "c5dc165b74e9b242.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "a22493e2a3f4ae1e",
+      "kind": "stylesheet",
+      "name": "feedback.css",
+      "path": "a22493e2a3f4ae1e.css",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/feedback.css",
+      "localPath": "a22493e2a3f4ae1e.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "c5e9bd1a99bf6347",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "c5e9bd1a99bf6347.css",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/style.css?v=3",
+      "localPath": "c5e9bd1a99bf6347.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "093543a97ad91e7d",
+      "kind": "stylesheet",
+      "name": "swiper-bundle.min.css",
+      "path": "093543a97ad91e7d.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css",
+      "localPath": "093543a97ad91e7d.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "e3822f96185bf3b6",
+      "kind": "stylesheet",
+      "name": "header-7.css",
+      "path": "e3822f96185bf3b6.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/header-7.css?v=14",
+      "localPath": "e3822f96185bf3b6.css"
+    },
+    {
+      "contentType": "image/png",
+      "id": "04dc91f34594843b",
+      "kind": "image",
+      "name": "topbg_CUCDohGKGe.png",
+      "path": "04dc91f34594843b.png",
+      "url": "https://giwmscdn.prixacdn.net/media/albums/topbg_CUCDohGKGe.png",
+      "localPath": "04dc91f34594843b.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "2a48c878c4ff0b05",
+      "kind": "image",
+      "name": "Emblem_of_Nepal.png",
+      "path": "2a48c878c4ff0b05.png",
+      "url": "https://giwmscdnone.gov.np/static/assets/image/Emblem_of_Nepal.png",
+      "localPath": "2a48c878c4ff0b05.png"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "4e99918ea72f4f6b",
+      "kind": "image",
+      "name": "Nepal-flag_qr4ar0j.gif",
+      "path": "4e99918ea72f4f6b.gif",
+      "url": "https://giwmscdnone.gov.np/media/logo/Nepal-flag_qr4ar0j.gif",
+      "localPath": "4e99918ea72f4f6b.gif"
+    },
+    {
+      "contentType": "text/css",
+      "id": "4c8351b155086f75",
+      "kind": "stylesheet",
+      "name": "slider-7.css",
+      "path": "4c8351b155086f75.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/slider-7.css?v=7",
+      "localPath": "4c8351b155086f75.css"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "cd8e73f5191cffda",
+      "kind": "image",
+      "name": "%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%20%E0%A4%9C%E0%A5%87%E0%A4%A0_page-0001_ezfyu3g.jpg",
+      "path": "cd8e73f5191cffda.jpg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%20%E0%A4%9C%E0%A5%87%E0%A4%A0_page-0001_ezfyu3g.jpg",
+      "localPath": "cd8e73f5191cffda.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ea0b210f0dc02520",
+      "kind": "image",
+      "name": "657158435_952886210438490_7748296782729294520_n_4ajzequ_9c27uhu.jpg",
+      "path": "ea0b210f0dc02520.jpg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/657158435_952886210438490_7748296782729294520_n_4ajzequ_9c27uhu.jpg",
+      "localPath": "ea0b210f0dc02520.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "1b11eff1f29b34d6",
+      "kind": "image",
+      "name": "3_qssflwg_q2ap9jn.jpg",
+      "path": "1b11eff1f29b34d6.jpg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/3_qssflwg_q2ap9jn.jpg",
+      "localPath": "1b11eff1f29b34d6.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "5cfbf2a3d6deef34",
+      "kind": "image",
+      "name": "599607907_122108723571101404_8148511568540459617_n_af5hzub.jpg",
+      "path": "5cfbf2a3d6deef34.jpg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/599607907_122108723571101404_8148511568540459617_n_af5hzub.jpg",
+      "localPath": "5cfbf2a3d6deef34.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "9e89112b66d78dfa",
+      "kind": "image",
+      "name": "p2_gnbdwom.jpeg",
+      "path": "9e89112b66d78dfa.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/p2_gnbdwom.jpeg",
+      "localPath": "9e89112b66d78dfa.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "91ac680b53d13256",
+      "kind": "image",
+      "name": "WhatsApp%20Image%202025-08-28%20at%2016.00.55_caifoe1.jpeg",
+      "path": "91ac680b53d13256.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/WhatsApp%20Image%202025-08-28%20at%2016.00.55_caifoe1.jpeg",
+      "localPath": "91ac680b53d13256.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "f575fd6890a305ce",
+      "kind": "image",
+      "name": "WhatsApp%20Image%202025-08-28%20at%2015.54.25_coelse9.jpeg",
+      "path": "f575fd6890a305ce.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/WhatsApp%20Image%202025-08-28%20at%2015.54.25_coelse9.jpeg",
+      "localPath": "f575fd6890a305ce.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "c7fa720edd8b618f",
+      "kind": "image",
+      "name": "p1_xwumbjp.jpeg",
+      "path": "c7fa720edd8b618f.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/carousels/p1_xwumbjp.jpeg",
+      "localPath": "c7fa720edd8b618f.jpeg"
+    },
+    {
+      "contentType": "text/css",
+      "id": "e7304531c2cc7824",
+      "kind": "stylesheet",
+      "name": "block-minister-4.css",
+      "path": "e7304531c2cc7824.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-minister-4.css?v=3.2",
+      "localPath": "e7304531c2cc7824.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "2997d096260a3665",
+      "kind": "stylesheet",
+      "name": "permalinks-9.css",
+      "path": "2997d096260a3665.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/permalinks-9.css",
+      "localPath": "2997d096260a3665.css"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "47f213b367549e66",
+      "kind": "image",
+      "name": "photo%20of%20minister%20-%20Copy_fbd5q2y_w8zhuyf.jpg",
+      "path": "47f213b367549e66.jpg",
+      "url": "https://giwmscdnone.gov.np/media/minister_photo/photo%20of%20minister%20-%20Copy_fbd5q2y_w8zhuyf.jpg",
+      "localPath": "47f213b367549e66.jpg"
+    },
+    {
+      "contentType": "text/css",
+      "id": "0317792fa4d5ed41",
+      "kind": "stylesheet",
+      "name": "title-6-1.css",
+      "path": "0317792fa4d5ed41.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/title-6-1.css?v=2",
+      "localPath": "0317792fa4d5ed41.css"
+    },
+    {
+      "contentType": "image/png",
+      "id": "91be734e2505b0a2",
+      "kind": "image",
+      "name": "newlogo.png",
+      "path": "91be734e2505b0a2.png",
+      "url": "https://giwmscdnone.gov.np/static/assets/image/newlogo.png",
+      "localPath": "91be734e2505b0a2.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "898d49490a701431",
+      "kind": "image",
+      "name": "profile_20260622095610_rw8jx1u.jpg",
+      "path": "898d49490a701431.jpg",
+      "url": "https://giwmscdnone.gov.np/media/members/profile_20260622095610_rw8jx1u.jpg",
+      "localPath": "898d49490a701431.jpg"
+    },
+    {
+      "contentType": "text/css",
+      "id": "1fea029eb6c2107f",
+      "kind": "stylesheet",
+      "name": "team-9.css",
+      "path": "1fea029eb6c2107f.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/team-9.css?v=1.2",
+      "localPath": "1fea029eb6c2107f.css"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "3ca2e33a20396b2c",
+      "kind": "image",
+      "name": "hemraj%20tamang_v5mSI7z4SD_gilbzma_L4eY0l086k_lv3utjb.jpg",
+      "path": "3ca2e33a20396b2c.jpg",
+      "url": "https://giwmscdnone.gov.np/media/albums/hemraj%20tamang_v5mSI7z4SD_gilbzma_L4eY0l086k_lv3utjb.jpg",
+      "localPath": "3ca2e33a20396b2c.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "237dc1029db1d180",
+      "kind": "image",
+      "name": "sudip%20sir%20pp_OH5CpWewWC_sxor0hk.jpg",
+      "path": "237dc1029db1d180.jpg",
+      "url": "https://giwmscdnone.gov.np/media/albums/sudip%20sir%20pp_OH5CpWewWC_sxor0hk.jpg",
+      "localPath": "237dc1029db1d180.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "0cab8beaf6791bca",
+      "kind": "image",
+      "name": "Surya%20sir_yipT0UbhAy_clrlhhr.JPG",
+      "path": "0cab8beaf6791bca.JPG",
+      "url": "https://giwmscdnone.gov.np/media/albums/Surya%20sir_yipT0UbhAy_clrlhhr.JPG",
+      "localPath": "0cab8beaf6791bca.JPG"
+    },
+    {
+      "contentType": "text/css",
+      "id": "e2f6f2948090ece3",
+      "kind": "stylesheet",
+      "name": "ourmission-2.css",
+      "path": "e2f6f2948090ece3.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/ourmission-2.css?v=2",
+      "localPath": "e2f6f2948090ece3.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "d1d901b4bde68ef1",
+      "kind": "stylesheet",
+      "name": "block-template-107.css",
+      "path": "d1d901b4bde68ef1.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-template-107.css",
+      "localPath": "d1d901b4bde68ef1.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "b21e010d0a48ae2e",
+      "kind": "stylesheet",
+      "name": "block-template-108.css",
+      "path": "b21e010d0a48ae2e.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-template-108.css?v=1",
+      "localPath": "b21e010d0a48ae2e.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "0e5c68b91370c8b0",
+      "kind": "stylesheet",
+      "name": "block-106.css",
+      "path": "0e5c68b91370c8b0.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-106.css?v=1.1",
+      "localPath": "0e5c68b91370c8b0.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "6dbb164b5d78227e",
+      "kind": "stylesheet",
+      "name": "block-92.css",
+      "path": "6dbb164b5d78227e.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-92.css?v=1",
+      "localPath": "6dbb164b5d78227e.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "556e3e8133765ae5",
+      "kind": "stylesheet",
+      "name": "block-109.css",
+      "path": "556e3e8133765ae5.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-109.css?v=4.2",
+      "localPath": "556e3e8133765ae5.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "8d0d9c78fcd4f3e0",
+      "kind": "stylesheet",
+      "name": "block-17.css",
+      "path": "8d0d9c78fcd4f3e0.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-17.css?v=1.2",
+      "localPath": "8d0d9c78fcd4f3e0.css"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "d5893d274b6e9184",
+      "kind": "image",
+      "name": "1000081536_0jl5lh4.jpg",
+      "path": "d5893d274b6e9184.jpg",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/1000081536_0jl5lh4.jpg",
+      "localPath": "d5893d274b6e9184.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "eac94baec82cd8f5",
+      "kind": "image",
+      "name": "kathmandu-mahanagar-sorojrag-kosh_PRLGoFiDa4_JbEeYmq76i_0cpr48q.jpg",
+      "path": "eac94baec82cd8f5.jpg",
+      "url": "https://giwmscdnone.gov.np/media/albums/kathmandu-mahanagar-sorojrag-kosh_PRLGoFiDa4_JbEeYmq76i_0cpr48q.jpg",
+      "localPath": "eac94baec82cd8f5.jpg"
+    },
+    {
+      "contentType": "image/mpo",
+      "id": "11e672f6dfbe08a8",
+      "kind": "image",
+      "name": "IMG_7146_0xxfqks.jpeg",
+      "path": "11e672f6dfbe08a8.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/IMG_7146_0xxfqks.jpeg",
+      "localPath": "11e672f6dfbe08a8.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "8d16b793d5dfb63b",
+      "kind": "image",
+      "name": "WhatsApp%20Image%202026-03-16%20at%2010.56.13%20AM_gvxbqds.jpeg",
+      "path": "8d16b793d5dfb63b.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/WhatsApp%20Image%202026-03-16%20at%2010.56.13%20AM_gvxbqds.jpeg",
+      "localPath": "8d16b793d5dfb63b.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "75300e02c0a66800",
+      "kind": "image",
+      "name": "WhatsApp%20Image%202026-01-13%20at%2012.10.02%20PM_3jJOplypJj_ce7jq1Jju4_rzgqppb.jpeg",
+      "path": "75300e02c0a66800.jpeg",
+      "url": "https://giwmscdnone.gov.np/media/albums/WhatsApp%20Image%202026-01-13%20at%2012.10.02%20PM_3jJOplypJj_ce7jq1Jju4_rzgqppb.jpeg",
+      "localPath": "75300e02c0a66800.jpeg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "0f7805bd66194059",
+      "kind": "image",
+      "name": "600335466_122109535761101404_245780234179221752_n_1Enn8MppnK_PD893cxcX3_ku7z1nw.jpg",
+      "path": "0f7805bd66194059.jpg",
+      "url": "https://giwmscdnone.gov.np/media/albums/600335466_122109535761101404_245780234179221752_n_1Enn8MppnK_PD893cxcX3_ku7z1nw.jpg",
+      "localPath": "0f7805bd66194059.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "d495b535f682305d",
+      "kind": "image",
+      "name": "600925397_122109401379101404_3676672462259918851_n_3jr0ajq.jpg",
+      "path": "d495b535f682305d.jpg",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/600925397_122109401379101404_3676672462259918851_n_3jr0ajq.jpg",
+      "localPath": "d495b535f682305d.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ba5394e5e381c507",
+      "kind": "image",
+      "name": "598384594_122108723451101404_5328046639314312949_n_zSbH8aBQwz_QU2NsSP0Xv_km8wy5x.jpg",
+      "path": "ba5394e5e381c507.jpg",
+      "url": "https://giwmscdnone.gov.np/media/albums/598384594_122108723451101404_5328046639314312949_n_zSbH8aBQwz_QU2NsSP0Xv_km8wy5x.jpg",
+      "localPath": "ba5394e5e381c507.jpg"
+    },
+    {
+      "contentType": "text/css",
+      "id": "0e8c5d2543940ae5",
+      "kind": "stylesheet",
+      "name": "footer-8.css",
+      "path": "0e8c5d2543940ae5.css",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/footer-8.css",
+      "localPath": "0e8c5d2543940ae5.css"
+    },
+    {
+      "contentType": "image/png",
+      "id": "209dce61764fef27",
+      "kind": "image",
+      "name": "topbg_CUCDohGKGe_VjmdWXC4XS_L2dmvC8XO5.png",
+      "path": "209dce61764fef27.png",
+      "url": "https://giwmscdnone.gov.np/media/albums/topbg_CUCDohGKGe_VjmdWXC4XS_L2dmvC8XO5.png",
+      "localPath": "209dce61764fef27.png"
+    },
+    {
+      "contentType": "text/css",
+      "id": "44e92bf0a6065929",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "44e92bf0a6065929.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css",
+      "localPath": "44e92bf0a6065929.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "894c9689ed04588a",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "894c9689ed04588a.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/thin/style.css",
+      "localPath": "894c9689ed04588a.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "79729d3b2c70297c",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "79729d3b2c70297c.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css",
+      "localPath": "79729d3b2c70297c.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "917f14da90156fc9",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "917f14da90156fc9.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css",
+      "localPath": "917f14da90156fc9.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "2172cff5a878c2d7",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "2172cff5a878c2d7.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css",
+      "localPath": "2172cff5a878c2d7.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "44ccfd937870ff96",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "44ccfd937870ff96.css",
+      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css",
+      "localPath": "44ccfd937870ff96.css"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "5097e3c865bb54df",
+      "kind": "image",
+      "name": "svg-1",
+      "path": "5097e3c865bb54df.svg",
+      "url": "inline-svg:5097e3c865bb54df",
+      "localPath": "5097e3c865bb54df.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "8e0cf460e2368e9e",
+      "kind": "image",
+      "name": "svg-2",
+      "path": "8e0cf460e2368e9e.svg",
+      "url": "inline-svg:8e0cf460e2368e9e",
+      "localPath": "8e0cf460e2368e9e.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "644b9ec0ff692950",
+      "kind": "image",
+      "name": "svg-3",
+      "path": "644b9ec0ff692950.svg",
+      "url": "inline-svg:644b9ec0ff692950",
+      "localPath": "644b9ec0ff692950.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "554625c49ecb1772",
+      "kind": "image",
+      "name": "svg-4",
+      "path": "554625c49ecb1772.svg",
+      "url": "inline-svg:554625c49ecb1772",
+      "localPath": "554625c49ecb1772.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "4f6cc66e4d87b7ae",
+      "kind": "image",
+      "name": "svg-5",
+      "path": "4f6cc66e4d87b7ae.svg",
+      "url": "inline-svg:4f6cc66e4d87b7ae",
+      "localPath": "4f6cc66e4d87b7ae.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "f2082272124c90d9",
+      "kind": "image",
+      "name": "svg-6",
+      "path": "f2082272124c90d9.svg",
+      "url": "inline-svg:f2082272124c90d9",
+      "localPath": "f2082272124c90d9.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "fa8d91a359ede649",
+      "kind": "image",
+      "name": "svg-7",
+      "path": "fa8d91a359ede649.svg",
+      "url": "inline-svg:fa8d91a359ede649",
+      "localPath": "fa8d91a359ede649.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "714ba49c669cc931",
+      "kind": "image",
+      "name": "svg-8",
+      "path": "714ba49c669cc931.svg",
+      "url": "inline-svg:714ba49c669cc931",
+      "localPath": "714ba49c669cc931.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "eaeb892a33cb4b84",
+      "kind": "image",
+      "name": "svg-9",
+      "path": "eaeb892a33cb4b84.svg",
+      "url": "inline-svg:eaeb892a33cb4b84",
+      "localPath": "eaeb892a33cb4b84.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "dc1153454856701a",
+      "kind": "image",
+      "name": "svg-10",
+      "path": "dc1153454856701a.svg",
+      "url": "inline-svg:dc1153454856701a",
+      "localPath": "dc1153454856701a.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "a1fc27c9661a8d22",
+      "kind": "image",
+      "name": "svg-11",
+      "path": "a1fc27c9661a8d22.svg",
+      "url": "inline-svg:a1fc27c9661a8d22",
+      "localPath": "a1fc27c9661a8d22.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "3c74a3cd974594e8",
+      "kind": "image",
+      "name": "svg-12",
+      "path": "3c74a3cd974594e8.svg",
+      "url": "inline-svg:3c74a3cd974594e8",
+      "localPath": "3c74a3cd974594e8.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "659b1a701e3d2418",
+      "kind": "image",
+      "name": "svg-13",
+      "path": "659b1a701e3d2418.svg",
+      "url": "inline-svg:659b1a701e3d2418",
+      "localPath": "659b1a701e3d2418.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "0ca7ca427eb1bdbd",
+      "kind": "image",
+      "name": "svg-14",
+      "path": "0ca7ca427eb1bdbd.svg",
+      "url": "inline-svg:0ca7ca427eb1bdbd",
+      "localPath": "0ca7ca427eb1bdbd.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "97671fc668e61c00",
+      "kind": "image",
+      "name": "svg-15",
+      "path": "97671fc668e61c00.svg",
+      "url": "inline-svg:97671fc668e61c00",
+      "localPath": "97671fc668e61c00.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "d5ea9ac1fb0c6dcf",
+      "kind": "image",
+      "name": "svg-16",
+      "path": "d5ea9ac1fb0c6dcf.svg",
+      "url": "inline-svg:d5ea9ac1fb0c6dcf",
+      "localPath": "d5ea9ac1fb0c6dcf.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7164af1b245f362b",
+      "kind": "image",
+      "name": "svg-17",
+      "path": "7164af1b245f362b.svg",
+      "url": "inline-svg:7164af1b245f362b",
+      "localPath": "7164af1b245f362b.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "d847bbb5a21ac2c1",
+      "kind": "image",
+      "name": "svg-18",
+      "path": "d847bbb5a21ac2c1.svg",
+      "url": "inline-svg:d847bbb5a21ac2c1",
+      "localPath": "d847bbb5a21ac2c1.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "403bf617b95c7485",
+      "kind": "image",
+      "name": "svg-19",
+      "path": "403bf617b95c7485.svg",
+      "url": "inline-svg:403bf617b95c7485",
+      "localPath": "403bf617b95c7485.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "898a58e5ce559789",
+      "kind": "image",
+      "name": "svg-20",
+      "path": "898a58e5ce559789.svg",
+      "url": "inline-svg:898a58e5ce559789",
+      "localPath": "898a58e5ce559789.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "72561c1a6b87f136",
+      "kind": "image",
+      "name": "svg-21",
+      "path": "72561c1a6b87f136.svg",
+      "url": "inline-svg:72561c1a6b87f136",
+      "localPath": "72561c1a6b87f136.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "045745c6bd0314ab",
+      "kind": "image",
+      "name": "svg-22",
+      "path": "045745c6bd0314ab.svg",
+      "url": "inline-svg:045745c6bd0314ab",
+      "localPath": "045745c6bd0314ab.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "36631f1a63eb4a20",
+      "kind": "image",
+      "name": "svg-23",
+      "path": "36631f1a63eb4a20.svg",
+      "url": "inline-svg:36631f1a63eb4a20",
+      "localPath": "36631f1a63eb4a20.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7978ceae62874ff0",
+      "kind": "image",
+      "name": "svg-24",
+      "path": "7978ceae62874ff0.svg",
+      "url": "inline-svg:7978ceae62874ff0",
+      "localPath": "7978ceae62874ff0.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "33a1ec687fdf021a",
+      "kind": "image",
+      "name": "svg-25",
+      "path": "33a1ec687fdf021a.svg",
+      "url": "inline-svg:33a1ec687fdf021a",
+      "localPath": "33a1ec687fdf021a.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "e2a5dc753c9a9172",
+      "kind": "image",
+      "name": "svg-26",
+      "path": "e2a5dc753c9a9172.svg",
+      "url": "inline-svg:e2a5dc753c9a9172",
+      "localPath": "e2a5dc753c9a9172.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "8d86aa365ea11244",
+      "kind": "image",
+      "name": "svg-27",
+      "path": "8d86aa365ea11244.svg",
+      "url": "inline-svg:8d86aa365ea11244",
+      "localPath": "8d86aa365ea11244.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "31a82f4e986fc5f1",
+      "kind": "image",
+      "name": "svg-28",
+      "path": "31a82f4e986fc5f1.svg",
+      "url": "inline-svg:31a82f4e986fc5f1",
+      "localPath": "31a82f4e986fc5f1.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9f15f2938f1b5fad",
+      "kind": "image",
+      "name": "svg-29",
+      "path": "9f15f2938f1b5fad.svg",
+      "url": "inline-svg:9f15f2938f1b5fad",
+      "localPath": "9f15f2938f1b5fad.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "b4f0650445e4aecc",
+      "kind": "image",
+      "name": "svg-30",
+      "path": "b4f0650445e4aecc.svg",
+      "url": "inline-svg:b4f0650445e4aecc",
+      "localPath": "b4f0650445e4aecc.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "f0b328322136b265",
+      "kind": "image",
+      "name": "svg-31",
+      "path": "f0b328322136b265.svg",
+      "url": "inline-svg:f0b328322136b265",
+      "localPath": "f0b328322136b265.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "2012dbbcc6886e29",
+      "kind": "image",
+      "name": "svg-32",
+      "path": "2012dbbcc6886e29.svg",
+      "url": "inline-svg:2012dbbcc6886e29",
+      "localPath": "2012dbbcc6886e29.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "8de14ec4a1421cf5",
+      "kind": "image",
+      "name": "svg-33",
+      "path": "8de14ec4a1421cf5.svg",
+      "url": "inline-svg:8de14ec4a1421cf5",
+      "localPath": "8de14ec4a1421cf5.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9d7579b7750f9898",
+      "kind": "image",
+      "name": "svg-34",
+      "path": "9d7579b7750f9898.svg",
+      "url": "inline-svg:9d7579b7750f9898",
+      "localPath": "9d7579b7750f9898.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "cc9be38710a4a5ee",
+      "kind": "image",
+      "name": "svg-35",
+      "path": "cc9be38710a4a5ee.svg",
+      "url": "inline-svg:cc9be38710a4a5ee",
+      "localPath": "cc9be38710a4a5ee.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "ab082cabdb4c52bc",
+      "kind": "image",
+      "name": "svg-36",
+      "path": "ab082cabdb4c52bc.svg",
+      "url": "inline-svg:ab082cabdb4c52bc",
+      "localPath": "ab082cabdb4c52bc.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "2ed5b065d3b23174",
+      "kind": "image",
+      "name": "svg-37",
+      "path": "2ed5b065d3b23174.svg",
+      "url": "inline-svg:2ed5b065d3b23174",
+      "localPath": "2ed5b065d3b23174.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "cc95fe37bb533452",
+      "kind": "image",
+      "name": "svg-38",
+      "path": "cc95fe37bb533452.svg",
+      "url": "inline-svg:cc95fe37bb533452",
+      "localPath": "cc95fe37bb533452.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9f657964ea7edd2f",
+      "kind": "image",
+      "name": "svg-39",
+      "path": "9f657964ea7edd2f.svg",
+      "url": "inline-svg:9f657964ea7edd2f",
+      "localPath": "9f657964ea7edd2f.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7a2ba67e0c2b7958",
+      "kind": "image",
+      "name": "svg-40",
+      "path": "7a2ba67e0c2b7958.svg",
+      "url": "inline-svg:7a2ba67e0c2b7958",
+      "localPath": "7a2ba67e0c2b7958.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7d6423b15441c2a9",
+      "kind": "image",
+      "name": "svg-41",
+      "path": "7d6423b15441c2a9.svg",
+      "url": "inline-svg:7d6423b15441c2a9",
+      "localPath": "7d6423b15441c2a9.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "0146d3ee62278611",
+      "kind": "image",
+      "name": "svg-42",
+      "path": "0146d3ee62278611.svg",
+      "url": "inline-svg:0146d3ee62278611",
+      "localPath": "0146d3ee62278611.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "9ad1f47f62f076f0",
+      "kind": "image",
+      "name": "svg-43",
+      "path": "9ad1f47f62f076f0.svg",
+      "url": "inline-svg:9ad1f47f62f076f0",
+      "localPath": "9ad1f47f62f076f0.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "6cb40aa9278bd152",
+      "kind": "image",
+      "name": "svg-44",
+      "path": "6cb40aa9278bd152.svg",
+      "url": "inline-svg:6cb40aa9278bd152",
+      "localPath": "6cb40aa9278bd152.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "4ce6845bedfe0878",
+      "kind": "image",
+      "name": "svg-45",
+      "path": "4ce6845bedfe0878.svg",
+      "url": "inline-svg:4ce6845bedfe0878",
+      "localPath": "4ce6845bedfe0878.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "0d3913a7ed2b619b",
+      "kind": "image",
+      "name": "svg-46",
+      "path": "0d3913a7ed2b619b.svg",
+      "url": "inline-svg:0d3913a7ed2b619b",
+      "localPath": "0d3913a7ed2b619b.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "546bc69260c018ec",
+      "kind": "image",
+      "name": "svg-47",
+      "path": "546bc69260c018ec.svg",
+      "url": "inline-svg:546bc69260c018ec",
+      "localPath": "546bc69260c018ec.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "7f664097b62be242",
+      "kind": "image",
+      "name": "svg-48",
+      "path": "7f664097b62be242.svg",
+      "url": "inline-svg:7f664097b62be242",
+      "localPath": "7f664097b62be242.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "c2a98cde3dec5c98",
+      "kind": "image",
+      "name": "svg-49",
+      "path": "c2a98cde3dec5c98.svg",
+      "url": "inline-svg:c2a98cde3dec5c98",
+      "localPath": "c2a98cde3dec5c98.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "5af9fa510a3a3c6d",
+      "kind": "image",
+      "name": "svg-50",
+      "path": "5af9fa510a3a3c6d.svg",
+      "url": "inline-svg:5af9fa510a3a3c6d",
+      "localPath": "5af9fa510a3a3c6d.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "6dd780c2f9a8c551",
+      "kind": "image",
+      "name": "svg-51",
+      "path": "6dd780c2f9a8c551.svg",
+      "url": "inline-svg:6dd780c2f9a8c551",
+      "localPath": "6dd780c2f9a8c551.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "bd5735623d7763b8",
+      "kind": "image",
+      "name": "svg-52",
+      "path": "bd5735623d7763b8.svg",
+      "url": "inline-svg:bd5735623d7763b8",
+      "localPath": "bd5735623d7763b8.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "0dd02c2818892b21",
+      "kind": "image",
+      "name": "svg-53",
+      "path": "0dd02c2818892b21.svg",
+      "url": "inline-svg:0dd02c2818892b21",
+      "localPath": "0dd02c2818892b21.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "5a15713f45d827d6",
+      "kind": "image",
+      "name": "svg-54",
+      "path": "5a15713f45d827d6.svg",
+      "url": "inline-svg:5a15713f45d827d6",
+      "localPath": "5a15713f45d827d6.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "fc7ff1ccb4ada559",
+      "kind": "image",
+      "name": "svg-55",
+      "path": "fc7ff1ccb4ada559.svg",
+      "url": "inline-svg:fc7ff1ccb4ada559",
+      "localPath": "fc7ff1ccb4ada559.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "48a4033dae46397c",
+      "kind": "image",
+      "name": "svg-56",
+      "path": "48a4033dae46397c.svg",
+      "url": "inline-svg:48a4033dae46397c",
+      "localPath": "48a4033dae46397c.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "e80b60811764bca5",
+      "kind": "image",
+      "name": "svg-57",
+      "path": "e80b60811764bca5.svg",
+      "url": "inline-svg:e80b60811764bca5",
+      "localPath": "e80b60811764bca5.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "12bef62101613469",
+      "kind": "image",
+      "name": "svg-58",
+      "path": "12bef62101613469.svg",
+      "url": "inline-svg:12bef62101613469",
+      "localPath": "12bef62101613469.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "911348d30435b5df",
+      "kind": "image",
+      "name": "svg-59",
+      "path": "911348d30435b5df.svg",
+      "url": "inline-svg:911348d30435b5df",
+      "localPath": "911348d30435b5df.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "4a87a4ec575d4e9d",
+      "kind": "image",
+      "name": "svg-60",
+      "path": "4a87a4ec575d4e9d.svg",
+      "url": "inline-svg:4a87a4ec575d4e9d",
+      "localPath": "4a87a4ec575d4e9d.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "b80ad5f91cd5c3bf",
+      "kind": "image",
+      "name": "svg-61",
+      "path": "b80ad5f91cd5c3bf.svg",
+      "url": "inline-svg:b80ad5f91cd5c3bf",
+      "localPath": "b80ad5f91cd5c3bf.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "30a5293af233c156",
+      "kind": "image",
+      "name": "svg-62",
+      "path": "30a5293af233c156.svg",
+      "url": "inline-svg:30a5293af233c156",
+      "localPath": "30a5293af233c156.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "bf1965b57f27b9d1",
+      "kind": "image",
+      "name": "svg-63",
+      "path": "bf1965b57f27b9d1.svg",
+      "url": "inline-svg:bf1965b57f27b9d1",
+      "localPath": "bf1965b57f27b9d1.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "00df0a1af538f461",
+      "kind": "image",
+      "name": "svg-64",
+      "path": "00df0a1af538f461.svg",
+      "url": "inline-svg:00df0a1af538f461",
+      "localPath": "00df0a1af538f461.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "649aec512279a58a",
+      "kind": "image",
+      "name": "svg-65",
+      "path": "649aec512279a58a.svg",
+      "url": "inline-svg:649aec512279a58a",
+      "localPath": "649aec512279a58a.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "e1cd4cd5bc9e88ba",
+      "kind": "image",
+      "name": "svg-66",
+      "path": "e1cd4cd5bc9e88ba.svg",
+      "url": "inline-svg:e1cd4cd5bc9e88ba",
+      "localPath": "e1cd4cd5bc9e88ba.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "da3884cf2a27c91a",
+      "kind": "image",
+      "name": "svg-67",
+      "path": "da3884cf2a27c91a.svg",
+      "url": "inline-svg:da3884cf2a27c91a",
+      "localPath": "da3884cf2a27c91a.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "421e2e1cba222b4b",
+      "kind": "image",
+      "name": "svg-68",
+      "path": "421e2e1cba222b4b.svg",
+      "url": "inline-svg:421e2e1cba222b4b",
+      "localPath": "421e2e1cba222b4b.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "a0f7ff2ed0743192",
+      "kind": "image",
+      "name": "svg-69",
+      "path": "a0f7ff2ed0743192.svg",
+      "url": "inline-svg:a0f7ff2ed0743192",
+      "localPath": "a0f7ff2ed0743192.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "80a801b001577246",
+      "kind": "image",
+      "name": "svg-70",
+      "path": "80a801b001577246.svg",
+      "url": "inline-svg:80a801b001577246",
+      "localPath": "80a801b001577246.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "ddb7794644035789",
+      "kind": "image",
+      "name": "svg-71",
+      "path": "ddb7794644035789.svg",
+      "url": "inline-svg:ddb7794644035789",
+      "localPath": "ddb7794644035789.svg"
+    }
+  ],
+  "failures": [
+    {
+      "contentType": null,
+      "id": "5504655c1cbcf887",
+      "name": "fa-solid-900.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at ZZ (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "contentType": null,
+      "id": "3a76efcf2ba7820d",
+      "name": "fa-brands-400.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at ZZ (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "contentType": null,
+      "id": "223f269f4e7d6a4b",
+      "name": "fa-regular-400.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at ZZ (<anonymous>:1:41)\n    at <anonymous>:1:354",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-regular-400.woff2"
+    }
+  ]
+}

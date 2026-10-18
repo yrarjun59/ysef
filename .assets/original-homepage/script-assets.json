@@ -1,0 +1,37 @@
+{
+  "source": "https://ysef.gov.np/",
+  "captured": "2026-10-17",
+  "status": "URLs observed in public page asset inventory; source files could not be exported with the available browser asset tool. The redesign does not load these scripts.",
+  "scripts": [
+    "https://unpkg.com/@phosphor-icons/web",
+    "https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js",
+    "https://giwmscdnone.gov.np/static/assets/js/npdist.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+    "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0",
+    "https://giwmscdnone.gov.np/static/ctmlib/npdtpkr.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-CK0L6TF2HX",
+    "https://unpkg.com/accessibility-widgets@latest/widget.js",
+    "https://www.clarity.ms/tag/m950osip6i",
+    "https://connect.facebook.net/en_US/bundle/sdk.js/",
+    "https://scripts.clarity.ms/0.8.72-beta/clarity.js"
+  ],
+  "unavailableFonts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-regular-400.woff2"
+  ],
+  "notFetched": [
+    "YSEF page-view counter request",
+    "Microsoft Clarity collection/telemetry requests",
+    "Google Analytics collection request"
+  ]
+}

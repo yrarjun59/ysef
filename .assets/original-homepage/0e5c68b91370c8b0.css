@@ -1,0 +1,189 @@
+.block-106 .tab__box .nav-tabs {
+  border: 0px !important;
+  margin-bottom: 30px;
+  gap: 20px;
+  row-gap: 10px;
+}
+.block-106 .tab__box .nav-tabs .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--updated-theme);
+  padding: 10px 15px 7px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.block-106 .tab__box .nav-tabs .nav-link::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: var(--secondary-color);
+  bottom: 1px;
+  left: 15px;
+}
+.block-106 .tab__box .nav-tabs .nav-link:hover {
+  background-color: var(--updated-theme);
+  opacity: 0.7;
+  color: #fff;
+}
+.block-106 .tab__box .nav-tabs .nav-link:hover::after{
+  display: none;
+}
+
+.block-106 .tab__box .nav-tabs .nav-link:hover,
+.block-106 .tab__box .nav-tabs .nav-link :focus,
+.block-106 .tab__box .nav-tabs .nav-link :active {
+  outline: none;
+  box-shadow: none;
+}
+.block-106 .tab__box .nav-tabs .nav-link.active {
+  background-color: var(--updated-theme);
+  color: #fff;
+  border-radius: 4px;
+  border: 0px;
+  margin-bottom: 0px;
+  padding: 10px 30px 7px;
+}
+.block-106 .tab__box .nav-tabs .nav-link.active::after{
+  display: none;
+}
+
+.block-106 .tab__box .nav-tabs .nav-link.active:hover {
+  opacity: 1;
+}
+.block-106 .section__title {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.block-106 .section__title h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: 0;
+}
+@media (max-width: 575px) {
+  .block-106 .section__title h6 {
+    font-size: 18px;
+  }
+}
+.block-106 .section__title h6::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #000;
+  bottom: 0px;
+  left: 0;
+}
+.block-106 .card__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+@media (max-width: 575px) {
+  .block-106 .card__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.block-106 .single__row-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.block-106 .single__row-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .block-106 .single__row-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+.block-106 .single__row-info {
+  flex: 1;
+}
+.block-106 .single__row-info h4 {
+  margin-bottom: 0;
+}
+.block-106 .single__row-info h4 a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 5px;
+  line-height: 1.4;
+  transition: all 0.2s ease-in-out;
+}
+.block-106 .single__row-info h4 a:hover {
+  color: var(--updated-theme);
+}
+@media (max-width: 575px) {
+  .block-106 .single__row-info h4 a {
+    font-size: 16px;
+  }
+}
+.block-106 .single__row-info span {
+  display: block;
+  font-size: 16px;
+  color: #6c6c6c;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+@media (max-width: 575px) {
+  .block-106 .single__row-info span {
+    font-size: 14px;
+  }
+}
+.block-106 .single__row-info .post-meta .date {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a5a5a5;
+}
+@media (max-width: 575px) {
+  .block-106 .single__row-info .post-meta .date {
+    font-size: 12px;
+  }
+}
+.block-106 .block__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+.block-106 .block__pagination-list {
+  background-color: #eaf1ff;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.block-106 .block__pagination a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.block-106 .block__pagination a.active {
+  background-color: var(--updated-theme);
+  color: #ffffff;
+}
+.block-106 .block__pagination-prev a, .block-106 .block__pagination-next a {
+  background-color: var(--updated-theme);
+  color: #ffffff;
+}

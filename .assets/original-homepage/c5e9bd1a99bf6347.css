@@ -1,0 +1,311 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Roboto:300,400,500,700,900";
+@import url(https://fonts.googleapis.com/css?family=Mukta:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Martel:200,300,regular,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Devanagari:100,200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* custom-fonts */
+@font-face {
+    font-family: amithenFont;
+    src: url(https://giwmscdn.prixacdn.net/media/attachments/2024/05/29/amithen.ttf);
+}
+
+:root {
+    --theme-color: #2460B9;
+    --updated-theme: #2460B9;
+    --secondary-color: #CC1424;
+    --theme-light-color: #F4F8FF;
+    --white-color: #fff;
+
+
+    --theme-color-100: #EEF5FF;
+    --theme-color-300: #4F7EC7;
+    --theme-color-400: #021C46;
+    --theme-color-500: #022B69;
+
+    --border-color: #F0F0F0;
+    --grey-100: #F5F5F5;
+
+    --secondary-color-100: #FFF4F5;
+    --secondary-color-200: #FFE1E4;
+    --secondary-color-300: #FFF6F7;
+    --secondary-color-400: #ffeff1;
+    --secondary-color-500: #ffe5e8;
+
+    --theme-100: #F1F7FF;
+    --theme-200: #F4F8FF;
+    --theme-300: #EAF1FF;
+    --dark-theme: #264F8B;
+
+    --secondary-font: "Martel", sans-serif;
+
+    --english-font: "Red Hat Display", sans-serif;
+    --quicksand-font: "Quicksand", sans-serif;
+    --custom-font: amithenFont;
+    --IBM-font: "IBM Plex Sans", sans-serif;
+}
+
+.light__linear-bg {
+    background: linear-gradient(180deg, #fff9f9 0%, #f2f9ff 100%);
+}
+
+.theme__bg {
+    background: var(--theme-color);
+}
+
+.theme__linear-bg {
+    background: linear-gradient(180deg, #112d56, var(--theme-color));
+}
+
+.theme__light-bg {
+    background: #f1f7ff;
+}
+
+.light__grey-bg {
+    background: #f9fcff;
+}
+
+.fontcapsioncredit-bigstory {
+    display: none
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Mukta", sans-serif;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    height: 100%;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #646464;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: "Mukta", sans-serif !important;
+    margin: 0 0 20px;
+    color: #111;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.custom-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .custom-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+} 
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-container {
+        padding: 0 1rem;
+    }
+}
+
+.post__meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 5px;
+}
+
+.post__meta .author {
+    color: var(--theme-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 575px) {
+    .post__meta .author {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.post__meta .post__date p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+    color: #797979;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post__meta .post__date p svg {
+    font-size: 14px;
+}
+
+.post__meta .meta:not(:last-child) {
+    position: relative;
+}
+
+.post__meta .meta:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    width: 8px;
+    height: 8px;
+    background: #ddd;
+    border-radius: 2px;
+}
+
+.grid__card .card__img>a {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid__card .card__img>a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.image-size-10 {
+    padding-bottom: 10%;
+}
+
+.image-size-20 {
+    padding-bottom: 20%;
+}
+
+.image-size-30 {
+    padding-bottom: 30%;
+}
+
+.image-size-40 {
+    padding-bottom: 40%;
+}
+
+.image-size-50 {
+    padding-bottom: 50%;
+}
+
+.image-size-60 {
+    padding-bottom: 60%;
+}
+
+.image-size-66 {
+    padding-bottom: 82.25%;
+}
+
+.image-size-70 {
+    padding-bottom: 70%;
+}
+
+.image-size-80 {
+    padding-bottom: 80%;
+}
+
+.image-size-90 {
+    padding-bottom: 90%;
+}
+
+.image-size-100 {
+    padding-bottom: 100%;
+}
+
+.image-size-120 {
+    padding-bottom: 120%;
+}
+
+.image-size-150 {
+    padding-bottom: 150%;
+}
+
+.backdrop__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 555;
+    backdrop-filter: blur(10px);
+    animation: fadeInOut 300ms ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .backdrop__overlay {
+        display: block;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
