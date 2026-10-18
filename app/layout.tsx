@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   title: "Youth and Small Entrepreneur Self-Development Fund | YSEF",
   description: "Services, notices, and resources from the Youth and Small Entrepreneur Self-Development Fund. Redesign prototype.",
   icons: {
-    icon: [{ url: "/ysef-emblem.png", type: "image/png", sizes: "512x512" }],
-    shortcut: "/ysef-emblem.png",
-    apple: "/ysef-emblem.png",
+    icon: [{ url: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ysef-emblem.png`, type: "image/png", sizes: "512x512" }],
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ysef-emblem.png`,
+    apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ysef-emblem.png`,
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
