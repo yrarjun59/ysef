@@ -37,6 +37,18 @@
   .card { min-height: 175px; padding: 1.1rem; }
 }
 
+@media (max-width: 767px) {
+  .eyebrow { color: #145ca8; font-size: 12px; letter-spacing: .04em; }
+  .heading h2 { color: #123354; font-size: 25px; }
+  .heading p { font-size: 15px; line-height: 1.55; }
+  .card { min-height: 0; gap: 12px; padding: 15px; border-color: #dce5ea; }
+  .featured { border-top-color: #145ca8; }
+  .icon { background: #145ca8; border-color: #145ca8; }
+  .card strong { color: #123354; font-size: 16px; line-height: 1.45; }
+  .cardFoot { min-height: 36px; color: #145ca8; font-size: 14px; }
+  .kind { font-size: 13px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .card { transition: none; }
   .card:hover { transform: none; }

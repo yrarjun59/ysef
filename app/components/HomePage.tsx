@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight, BookOpenText, ChevronRight, CircleHelp, FileText, Search, ShieldCheck } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Bell, BookOpenText, ChevronRight, CircleHelp, FileDown, FileText, PhoneCall, Search, ShieldCheck } from "lucide-react";
 import { resources, officials } from "../data";
 import { useLocale } from "./LocaleContext";
 import HomepageCarousel from "./HomepageCarousel";
@@ -22,6 +22,12 @@ export default function HomePage() {
           <div className="hero-kicker"><span className="kicker-mark" />{t("स्वरोजगार र उद्यम विकास", "Self-employment and enterprise development")}</div>
           <h1>{t("आफ्नो सीपबाट,\nआफ्नै व्यवसायतर्फ।", "Turn your skills\ninto your own business.")}</h1>
           <p>{t("युवा तथा साना व्यवसायी स्वरोजगार कोषका सेवा, सूचना र स्रोतहरू सजिलै खोज्नुहोस्।", "Find services, notices, and resources from the Youth and Small Entrepreneur Self-Development Fund.")}</p>
+          <nav className="home-task-links" aria-label={t("लोकप्रिय कामहरू", "Popular tasks")}>
+            <Link href="/services"><BookOpenText aria-hidden="true" /><span>{t("सेवाहरू", "Services")}</span><ArrowUpRight aria-hidden="true" /></Link>
+            <Link href="/notices"><Bell aria-hidden="true" /><span>{t("सूचनाहरू", "Notices")}</span><ArrowUpRight aria-hidden="true" /></Link>
+            <Link href="/resources"><FileDown aria-hidden="true" /><span>{t("फाराम तथा कागजात", "Forms & documents")}</span><ArrowUpRight aria-hidden="true" /></Link>
+            <Link href="/contact"><PhoneCall aria-hidden="true" /><span>{t("सम्पर्क तथा सहयोग", "Contact & help")}</span><ArrowUpRight aria-hidden="true" /></Link>
+          </nav>
           <div className="hero-actions"><Link className="button button-primary" href="/services">{t("उपलब्ध सेवाहरू हेर्नुहोस्", "Explore services")}<ArrowRight size={17} /></Link><Link className="text-link" href="/resources">{t("फाराम खोज्नुहोस्", "Find a form")}<ChevronRight size={16} /></Link></div>
           <div className="hero-audience"><span className="audience-icon"><CircleHelp size={16} /></span><span>{t("कहाँबाट सुरु गर्ने थाहा छैन?", "Not sure where to begin?")}</span><Link href="/services">{t("सहयोगी गाइड हेर्नुहोस्", "Start with our guide")}<ArrowUpRight size={13} /></Link></div>
         </div>

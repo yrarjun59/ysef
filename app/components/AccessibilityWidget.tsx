@@ -156,6 +156,7 @@ export default function AccessibilityWidget() {
     <button ref={triggerRef} type="button" className="accessibility-trigger" aria-label={t("पहुँचयोग्यता उपकरण खोल्नुहोस्", "Open accessibility tools")} title={t("पहुँचयोग्यता उपकरण", "Accessibility tools")} aria-expanded={open} aria-controls="accessibility-panel" onClick={() => setOpen((value) => !value)}>
       <Accessibility size={21} aria-hidden="true" />
       <span className="a11y-trigger-label">{t("पहुँचयोग्यता", "Accessibility")}</span>
+      <span className="a11y-trigger-short" aria-hidden="true">{t("पहुँच", "Access")}</span>
       {Object.entries(settings).some(([key, value]) => key !== "textScale" && value !== false && value !== "default" && value !== "normal") && <span className="a11y-active-dot" aria-label={t("सेटिङहरू सक्रिय", "Settings active")}><Check size={11} aria-hidden="true" /></span>}
     </button>
   </div>;

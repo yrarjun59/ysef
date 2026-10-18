@@ -186,13 +186,14 @@
   .inner { width: min(100% - 36px, 480px); }
   .heading { align-items: flex-start; flex-direction: column; gap: 13px; margin-bottom: 21px; }
   .heading h2 { font-size: 25px; }
-  .heading p { font-size: 14px; }
-  .allServices { min-height: 38px; margin-left: -10px; }
+  .heading p { font-size: 15px; line-height: 1.55; }
+  .allServices { min-height: 44px; margin-left: -10px; font-size: 14px; }
   .grid { grid-template-columns: 1fr; gap: 11px; }
   .card { min-height: 0; padding: 17px 18px 15px; }
   .cardTop { margin-bottom: 12px; }
-  .title { font-size: 16px; }
-  .cardLink { padding-top: 12px; }
+  .title { font-size: 18px; line-height: 1.4; }
+  .description { font-size: 15px; line-height: 1.55; }
+  .cardLink { min-height: 44px; padding-top: 12px; font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

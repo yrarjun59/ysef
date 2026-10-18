@@ -51,16 +51,20 @@
   .section { padding: 39px 0 44px; }
   .heading { margin-bottom: 17px; }
   .heading h2 { font-size: 23px; }
-  .heading p { font-size: 14px; }
+  .heading p { font-size: 15px; line-height: 1.55; }
   .sampleNote { align-items: flex-start; font-size: 12px; }
   .gallery { gap: 12px; }
   .featureImage { aspect-ratio: 1.42; }
   .featureCaption { padding: 13px; }
   .featureCaption strong { font-size: 15px; }
   .albumGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
-  .albumCaption { min-height: 104px; padding: 10px 9px; }
-  .albumCaption strong { font-size: 12px; }
-  .albumCaption > span { font-size: 10px; }
+  .albumCaption { min-height: 106px; padding: 10px 9px; }
+  .albumCaption strong { font-size: 14px; }
+  .albumCaption > span { min-height: 36px; font-size: 12px; }
+  .featureCaption strong { font-size: 16px; }
+  .openAlbum { min-height: 40px; font-size: 14px; }
+  .sampleNote { font-size: 13px; }
+  .mobileAllLink { min-height: 44px; margin-top: 12px; font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

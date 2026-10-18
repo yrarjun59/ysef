@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
-import { Bell, BellRing, BriefcaseBusiness, ChevronDown, ChevronUp, ExternalLink, FileText, House, Landmark, LockKeyhole, Menu, Search, X } from "lucide-react";
+import { Bell, BellRing, BriefcaseBusiness, ChevronDown, ChevronUp, ExternalLink, FileDown, FileText, House, Image as ImagesIcon, Info, Landmark, LockKeyhole, Menu, Search, X } from "lucide-react";
 import { useLocale } from "./LocaleContext";
 import NepalDateTime from "./NepalDateTime";
 import AccessibilityWidget from "./AccessibilityWidget";
@@ -49,6 +49,7 @@ const navGroups = [
     { href: "/resources", ne: "फाराम, प्रतिवेदन र नीतिहरू", en: "Forms, reports, and policies" },
   ] },
 ];
+const navGroupIcons = { about: Info, services: BriefcaseBusiness, information: Bell, media: ImagesIcon, downloads: FileDown };
 const registrationUrl = "https://register.ysefgov.com/apply";
 
 export default function SiteHeader() {
@@ -160,10 +161,10 @@ export default function SiteHeader() {
             const expanded = openMenu === group.id;
             return <div className={`nav-dropdown ${expanded ? "is-expanded" : ""}`} key={group.id}>
               <button type="button" className={`nav-trigger ${groupActive ? "active" : ""}`} aria-expanded={expanded} aria-controls={`nav-menu-${group.id}`} onClick={() => setOpenMenu(expanded ? null : group.id)}>
-                {t(group.ne, group.en)}<ChevronDown size={14} aria-hidden="true" />
+                <span className="nav-trigger-label">{(() => { const GroupIcon = navGroupIcons[group.id as keyof typeof navGroupIcons]; return <GroupIcon size={19} aria-hidden="true" />; })()}{t(group.ne, group.en)}</span><ChevronDown size={16} aria-hidden="true" />
               </button>
               {expanded && <div className="nav-menu" id={`nav-menu-${group.id}`}>
-                {group.items.map((item) => <Link key={item.href} href={item.href} onClick={() => { setOpenMenu(null); setMobileOpen(false); }}>{t(item.ne, item.en)}</Link>)}
+              {group.items.map((item) => <Link key={item.href} href={item.href} onClick={() => { setOpenMenu(null); setMobileOpen(false); }}>{t(item.ne, item.en)}</Link>)}
               </div>}
             </div>;
           })}

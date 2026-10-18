@@ -43,11 +43,14 @@
   .section { padding: 38px 0 42px; }
   .heading { margin-bottom: 18px; }
   .heading h2 { font-size: 23px; }
-  .heading p { font-size: 14px; }
+  .heading p { font-size: 15px; line-height: 1.55; }
   .sampleNotice { align-items: flex-start; font-size: 12px; }
   .card { gap: 10px; padding: 14px 12px; }
   .cardIcon { flex-basis: 34px; width: 34px; height: 34px; }
-  .cardBody strong { font-size: 15px; }
+  .cardBody strong { font-size: 16px; }
+  .summary { font-size: 14px; line-height: 1.5; }
+  .meta, .date { font-size: 12px; }
+  .mobileAllLink { min-height: 44px; margin-top: 12px; font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
