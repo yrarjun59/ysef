@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ArrowUpRight, Bell, CalendarDays } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Bell, CalendarDays, GraduationCap, Info } from "lucide-react";
 import { notices } from "../data";
 import { useLocale } from "./LocaleContext";
 import styles from "./HighlightsHomeSection.module.css";
@@ -33,7 +33,9 @@ export default function HighlightsHomeSection() {
           {notices.slice(0, 3).map((notice) => (
             <li key={notice.slug}>
               <a className={styles.card} href={(notice as typeof notice & { sourceUrl?: string }).sourceUrl || HIGHLIGHTS_URL}>
-                <span className={styles.cardIcon} aria-hidden="true"><CalendarDays size={20} /></span>
+                <span className={`${styles.cardIcon} ${notice.typeEn === "Training" ? styles.trainingIcon : notice.typeEn === "Information" ? styles.infoIcon : styles.noticeIcon}`} aria-hidden="true">
+                  {notice.typeEn === "Training" ? <GraduationCap size={21} /> : notice.typeEn === "Information" ? <Info size={20} /> : <CalendarDays size={20} />}
+                </span>
                 <span className={styles.cardBody}>
                   <span className={styles.meta}>{lang === "ne" ? notice.type : notice.typeEn} <span aria-hidden="true">·</span> {t("उदाहरण", "Illustrative")}</span>
                   <strong>{lang === "ne" ? notice.title : notice.titleEn}</strong>

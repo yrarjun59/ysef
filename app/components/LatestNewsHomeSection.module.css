@@ -19,7 +19,9 @@
 .card:hover { transform: translateY(-3px); border-color: #afc2d1; box-shadow: 0 12px 28px #18354b12; }
 .featured { border-top: 3px solid #9a3d27; }
 .cardTop { display: flex; align-items: center; gap: .7rem; color: #526474; }
-.icon { display: grid; width: 38px; height: 38px; place-items: center; color: #8b412a; background: #f8eee9; border-radius: 50%; }
+.icon { display: grid; width: 38px; height: 38px; place-items: center; color: #fff; background: #a63035; border: 1px solid #a63035; border-radius: 8px; box-shadow: inset 0 -3px 0 rgb(0 0 0 / 12%); }
+.card:nth-child(2) .icon { background: #145ca8; border-color: #145ca8; }
+.card:nth-child(3) .icon { background: #286747; border-color: #286747; }
 .kind { font-size: .83rem; font-weight: 650; }
 .cardArrow { margin-left: auto; color: #687b8b; }
 .card strong { color: #183147; font-size: 1.14rem; line-height: 1.55; font-weight: 650; }

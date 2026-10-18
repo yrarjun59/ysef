@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ArrowUpRight, Newspaper } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BookOpenText, FileBarChart2, Newspaper } from "lucide-react";
 import { resources } from "../data";
 import { useLocale } from "./LocaleContext";
 import styles from "./LatestNewsHomeSection.module.css";
@@ -32,7 +32,9 @@ export default function LatestNewsHomeSection() {
           {items.map((item, index) => item && (
             <a className={`${styles.card} ${index === 0 ? styles.featured : ""}`} href={item.sourceUrl} target="_blank" rel="noopener noreferrer" key={item.id}>
               <span className={styles.cardTop}>
-                <span className={styles.icon}><Newspaper aria-hidden="true" size={19} /></span>
+                <span className={styles.icon} aria-hidden="true">
+                  {item.kindEn === "Report" ? <FileBarChart2 size={19} /> : item.kindEn === "Bulletin" ? <BookOpenText size={19} /> : <Newspaper size={19} />}
+                </span>
                 <span className={styles.kind}>{lang === "ne" ? item.kind : item.kindEn}</span>
                 <ArrowUpRight className={styles.cardArrow} aria-hidden="true" size={17} />
               </span>

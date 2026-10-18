@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight, BookOpen, FileText } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BookOpen, FileBarChart2, FileText, Newspaper, ShieldCheck } from "lucide-react";
 import { resources } from "../data";
 import { useLocale } from "./LocaleContext";
 import styles from "./PublicationsHomeSection.module.css";
@@ -61,7 +61,9 @@ export default function PublicationsHomeSection() {
           <div className={styles.list}>
             {items.slice(1, 4).map((item) => (
               <a className={styles.item} href={item.sourceUrl || PUBLICATIONS_URL} target="_blank" rel="noopener noreferrer" key={item.id}>
-                <span className={styles.itemIcon} aria-hidden="true"><FileText size={19} /></span>
+                <span className={styles.itemIcon} aria-hidden="true">
+                  {item.id === "pdms-report-2083" ? <FileBarChart2 size={19} /> : item.id === "self-employment-insurance-info" ? <ShieldCheck size={19} /> : item.id === "articles-interviews" ? <Newspaper size={19} /> : <FileText size={19} />}
+                </span>
                 <span className={styles.itemBody}>
                   <span className={styles.itemKind}>{lang === "ne" ? item.kind : item.kindEn}</span>
                   <strong>{lang === "ne" ? item.title : item.titleEn}</strong>
