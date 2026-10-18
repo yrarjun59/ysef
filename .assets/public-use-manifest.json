@@ -1,0 +1,109 @@
+{
+  "description": "Public static files copied from the archived original-site asset capture and used by the redesign.",
+  "assets": [
+    {
+      "publicPath": "public/hero-partnership.jpg",
+      "capturedAsset": ".assets/original-homepage/eac94baec82cd8f5.jpg"
+    },
+    {
+      "publicPath": "public/reference-top.png",
+      "capturedAsset": ".assets/original-homepage/04dc91f34594843b.png"
+    },
+    {
+      "publicPath": "public/ysef-logo.png",
+      "capturedAsset": ".assets/original-homepage/91be734e2505b0a2.png"
+    },
+    {
+      "publicPath": "public/story-cooperative.jpg",
+      "capturedAsset": ".assets/original-homepage/11e672f6dfbe08a8.jpeg"
+    },
+    {
+      "publicPath": "public/nepal-flag-animated.gif",
+      "capturedAsset": ".assets/original-homepage/4e99918ea72f4f6b.gif"
+    },
+    {
+      "publicPath": "public/nepal-emblem.png",
+      "capturedAsset": ".assets/original-homepage/2a48c878c4ff0b05.png"
+    },
+    {
+      "publicPath": "public/reference-officials/minister-ramji-yadav.jpg",
+      "capturedAsset": ".assets/original-homepage/47f213b367549e66.jpg"
+    },
+    {
+      "publicPath": "public/reference-officials/surya-prakash-tiwari.jpg",
+      "capturedAsset": ".assets/original-homepage/0cab8beaf6791bca.JPG"
+    },
+    {
+      "publicPath": "public/reference-officials/sudip-silwal.jpg",
+      "capturedAsset": ".assets/original-homepage/237dc1029db1d180.jpg"
+    },
+    {
+      "publicPath": "public/reference-officials/hemraj-tamang.jpg",
+      "capturedAsset": ".assets/original-homepage/3ca2e33a20396b2c.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/kathmandu-partnership.jpg",
+      "capturedAsset": ".assets/original-homepage/eac94baec82cd8f5.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/financial-software.jpg",
+      "capturedAsset": ".assets/original-homepage/0f7805bd66194059.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/ministry-meeting.jpg",
+      "capturedAsset": ".assets/original-homepage/11e672f6dfbe08a8.jpeg"
+    },
+    {
+      "publicPath": "public/reference-gallery/youth-programme-presentation.jpg",
+      "capturedAsset": ".assets/original-homepage/d495b535f682305d.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/audit-meeting.jpg",
+      "capturedAsset": ".assets/original-homepage/ba5394e5e381c507.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/recovery-facilitator-training.jpg",
+      "capturedAsset": ".assets/original-homepage/75300e02c0a66800.jpeg"
+    },
+    {
+      "publicPath": "public/reference-gallery/skills-employment-fair.jpg",
+      "capturedAsset": ".assets/original-homepage/d5893d274b6e9184.jpg"
+    },
+    {
+      "publicPath": "public/reference-gallery/training-loan-agreement.jpg",
+      "capturedAsset": ".assets/original-homepage/8d16b793d5dfb63b.jpeg"
+    },
+    {
+      "publicPath": "public/reference-carousel/minister-office-appointment.jpg",
+      "capturedAsset": ".assets/original-homepage/ea0b210f0dc02520.jpg"
+    },
+    {
+      "publicPath": "public/reference-carousel/magazine-jestha.jpg",
+      "capturedAsset": ".assets/original-homepage/cd8e73f5191cffda.jpg"
+    },
+    {
+      "publicPath": "public/reference-carousel/youth-programme-briefing.jpg",
+      "capturedAsset": ".assets/original-homepage/5cfbf2a3d6deef34.jpg"
+    },
+    {
+      "publicPath": "public/reference-carousel/committee-meeting.jpg",
+      "capturedAsset": ".assets/original-homepage/9e89112b66d78dfa.jpeg"
+    },
+    {
+      "publicPath": "public/reference-carousel/board-meeting-59.jpeg",
+      "capturedAsset": ".assets/original-homepage/f575fd6890a305ce.jpeg"
+    },
+    {
+      "publicPath": "public/reference-carousel/minister-assumes-office.jpg",
+      "capturedAsset": ".assets/original-homepage/1b11eff1f29b34d6.jpg"
+    },
+    {
+      "publicPath": "public/reference-carousel/oath-and-appointment.jpeg",
+      "capturedAsset": ".assets/original-homepage/91ac680b53d13256.jpeg"
+    },
+    {
+      "publicPath": "public/reference-carousel/minister-briefing.jpeg",
+      "capturedAsset": ".assets/original-homepage/c7fa720edd8b618f.jpeg"
+    }
+  ]
+}

@@ -2,10 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, BookOpenText, ChevronRight, CircleHelp, FileText, Search, ShieldCheck } from "lucide-react";
-import { services, notices, resources, officials } from "../data";
+import { resources, officials } from "../data";
 import { useLocale } from "./LocaleContext";
-import ServiceIcon from "./ServiceIcon";
 import HomepageCarousel from "./HomepageCarousel";
+import ServicesHomeSection from "./ServicesHomeSection";
+import HighlightsHomeSection from "./HighlightsHomeSection";
+import LatestNewsHomeSection from "./LatestNewsHomeSection";
+import PublicationsHomeSection from "./PublicationsHomeSection";
+import PhotographsHomeSection from "./PhotographsHomeSection";
 
 export default function HomePage() {
   const { lang, t } = useLocale();
@@ -47,20 +51,7 @@ export default function HomePage() {
       </div>
     </section>
 
-    <section className="section services-section wrap" id="services">
-      <div className="section-heading">
-        <div><span className="eyebrow">{t("हामी के गर्छौं", "WHAT WE DO")}</span><h2>{t("आफ्नो लक्ष्यसँग मिल्ने सहयोग खोज्नुहोस्", "Find support that fits your goal")}</h2><p>{t("व्यवसाय सुरु गर्ने, सीप बढाउने वा साझेदारी गर्ने—आफ्नो आवश्यकताबाट सेवा छान्नुहोस्।", "Whether you are starting a business, building skills, or exploring a partnership, begin with what you need.")}</p></div>
-        <Link className="section-link" href="/services">{t("सबै सेवाहरू", "All services")}<ArrowRight size={16} /></Link>
-      </div>
-      <div className="service-grid">
-        {services.slice(0, 6).map((service, index) => <Link className={`service-card service-card-${index + 1}`} href={`/services/${service.slug}`} key={service.slug}>
-          <div className="service-card-top"><span className="service-icon"><ServiceIcon name={service.icon} /></span><span className="service-tag">{lang === "ne" ? service.tag : service.tagEn}</span></div>
-          <h3>{lang === "ne" ? service.title : service.titleEn}</h3>
-          <p>{lang === "ne" ? service.short : service.shortEn}</p>
-          <span className="card-link">{t("थप बुझ्नुहोस्", "Learn more")}<ArrowRight size={15} /></span>
-        </Link>)}
-      </div>
-    </section>
+    <ServicesHomeSection />
 
     <section className="how-section">
       <div className="wrap how-grid">
@@ -72,18 +63,10 @@ export default function HomePage() {
       </div>
     </section>
 
-    <section className="section notices-section wrap">
-      <div className="section-heading notices-heading"><div><span className="eyebrow">{t("ताजा जानकारी", "LATEST INFORMATION")}</span><h2>{t("सूचना र अपडेट", "Notices and updates")}</h2><p>{t("सम्बन्धित सूचना र स्रोतलाई विषयअनुसार सजिलै खोज्नुहोस्।", "Find relevant notices and resources by topic.")}</p></div><Link className="section-link" href="/notices">{t("सबै सूचना", "All notices")}<ArrowRight size={16} /></Link></div>
-      <div className="notice-list">
-        {notices.slice(0, 3).map((notice, i) => <Link key={notice.slug} href={`/notices/${notice.slug}`} className={`notice-row ${i === 0 ? "notice-row-featured" : ""}`}>
-          <span className={`notice-status status-${notice.status}`}>{lang === "ne" ? ["म्याद नजिक", "नयाँ", "जानकारी"][i] : ["Deadline soon", "New", "Information"][i]}</span>
-          <span className="notice-content"><strong>{lang === "ne" ? notice.title : notice.titleEn}</strong><small>{lang === "ne" ? notice.audience : notice.audienceEn}</small></span>
-          <span className="notice-date">{lang === "ne" ? notice.date : notice.dateEn}</span>
-          <ArrowUpRight size={17} className="notice-arrow" />
-        </Link>)}
-      </div>
-      <div className="demo-note"><span className="demo-note-mark">i</span><p>{t("यस नमूनामा देखाइएका सबै सूचना, मिति र स्थितिहरू उदाहरणका लागि मात्र हुन्।", "All notices, dates, and statuses shown in this prototype are illustrative.")}</p><span className="sample-pill">{t("नमूना सामग्री", "Sample content")}</span></div>
-    </section>
+    <HighlightsHomeSection />
+    <LatestNewsHomeSection />
+    <PublicationsHomeSection />
+    <PhotographsHomeSection />
 
     <section className="resources-band">
       <div className="wrap resources-band-grid">

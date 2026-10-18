@@ -41,6 +41,7 @@ const navGroups = [
     { href: "/resources#publications", ne: "प्रकाशनहरू", en: "Publications" },
     { href: "/gallery#videos", ne: "भिडियोहरू", en: "Videos" },
     { href: "/gallery", ne: "फोटो ग्यालरी", en: "Photo gallery" },
+    { href: "/gallery-list", ne: "तस्बिर सङ्ग्रह सूची", en: "Photo album list" },
   ] },
   { id: "downloads", ne: "डाउनलोडहरू", en: "Downloads", items: [
     { href: "/resources", ne: "फाराम, प्रतिवेदन र नीतिहरू", en: "Forms, reports, and policies" },

@@ -1,0 +1,108 @@
+.team-9 .team__box-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+.team-9 .team__box-wrapper .single__box-wrapper {
+  display: flex;
+  align-items: center;
+  grid-gap: 16px;
+  background: var(--theme-light-color);
+  border-radius: 6px;
+  padding: 16px;
+}
+.team-9 .team__box-wrapper .single__box-image {
+  min-width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .team-9 .team__box-wrapper .single__box-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+.team-9 .team__box-wrapper .single__box-image img {
+  width: 100%;
+  height: 100%;
+}
+.team-9 .team__box-wrapper .single__box-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+.team-9 .team__box-wrapper .single__box-info .team__mail {
+  color: var(--theme-color);
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  grid-gap: 5px;
+  word-break: break-all;
+  line-height: 1.2;
+  transition: all 300ms ease-in-out;
+}
+.team-9 .team__box-wrapper .single__box-info .team__mail:hover {
+  opacity: 0.7;
+}
+.team-9 .team__box-wrapper .single__box-name {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+@media (max-width: 767px) {
+  .team-9 .team__box-wrapper .single__box-name {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .team-9 .team__box-wrapper .single__box-name {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.team-9 .team__box-wrapper .single__box-position {
+  font-size: 16px;
+  color: #737373;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .team-9 .team__box-wrapper .single__box-position {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .team-9 .team__box-wrapper .single__box-position {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .team-9 .team__box-wrapper .single__box-position {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:575px){
+	.team-9 .team__box-wrapper .single__box-info .team__mail{
+		font-size: 12px;
+		flex-wrap: wrap;
+	}
+}
+
+.team-9 .team__box-wrapper .single__box-info .team__phone {
+  color: var(--theme-color);
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  grid-gap: 5px;
+  word-break: break-all;
+  line-height: 1.2;
+  transition: all 300ms ease-in-out;
+}

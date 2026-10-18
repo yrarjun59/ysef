@@ -1,0 +1,142 @@
+.block-92 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .block-92 .section__title h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+  }
+  .block-92-customTab {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+  .block-92-customTab .customTab__nav .nav {
+    border: 0;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+  }
+  .block-92-customTab .customTab__nav .nav .nav-item .nav-link {
+    border: 0;
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    transition: all 300ms ease-in-out;
+    position: relative;
+  }
+  .block-92-customTab .customTab__nav .nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 5px;
+    background: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+  }
+  .block-92-customTab .customTab__nav .nav .nav-item .nav-link.active {
+    color: var(--theme-color);
+  }
+  .block-92-customTab .customTab__nav .nav .nav-item .nav-link.active::before {
+    width: 100%;
+  }
+  .block-92-customTab .customTab__content .block-92-grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: flex-start;
+    grid-gap: 10px;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .tab__img {
+    display: flex;
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .tab__img a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details {
+    display: flex;
+    align-items: flex-start;
+    grid-gap: 10px;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group {
+    flex: 4;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group .card__title {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    transition: all 300ms ease-in-out;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group .card__title:hover {
+    color: var(--theme-color);
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group .card__title a {
+    color: inherit;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group .post__meta {
+    flex: unset;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .title__group .post__meta .author {
+    color: #858585;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .post__meta {
+    flex: 1;
+  }
+  .block-92-customTab .customTab__content .block-92-grid .grid__card .card__details .post__meta .date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #858585;
+  }
+  .block-92 .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  .block-92 .pagination__btn {
+    min-width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px solid var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-color);
+    transition: all 300ms ease-in-out;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .block-92 .pagination__btn.disabled {
+    background: #D9D9D9;
+    color: white;
+    border-color: #D9D9D9;
+    cursor: not-allowed;
+  }
+  .block-92 .pagination__btn.active {
+    background: var(--theme-color);
+    color: white;
+  }
+  

@@ -1,0 +1,554 @@
+{
+  "sourcePages": {
+    "home": "https://ysef.gov.np/",
+    "services": "https://ysef.gov.np/services-list/",
+    "highlights": "https://ysef.gov.np/category/highlights-content",
+    "publications": "https://ysef.gov.np/category/publications/",
+    "gallery-list": "https://ysef.gov.np/gallery-list/"
+  },
+  "capturedAt": "2026-10-18",
+  "totalBytes": 27425605,
+  "assets": [
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/image/Emblem_of_Nepal.png",
+      "type": "image",
+      "contentType": "image/png",
+      "localPath": ".assets/reference-pages/image/5eb5860f4b384c74.png",
+      "bytes": 897598
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/3017df4a76db5f01.css",
+      "bytes": 232948
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/50ad448a8a5720bf.css",
+      "bytes": 1369
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/e21aa5b0d3fd28ce.css",
+      "bytes": 2390
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/5736e3eec0c34bfc.css",
+      "bytes": 12795
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/c22cfb6520a7fdbb.css",
+      "bytes": 102641
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/98b04886606f8a04.css",
+      "bytes": 3117
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/detail-1.css?v=1",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/c9d1cabbbab11b65.css",
+      "bytes": 11592
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/org-table.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/f3bdf66541c31ac0.css",
+      "bytes": 8001
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/feedback.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/75f94631486ebe71.css",
+      "bytes": 6261
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/style.css?v=3",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/7af905e183a3701e.css",
+      "bytes": 5610
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css",
+      "type": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".assets/reference-pages/stylesheet/c94a0dc6cbd7f95a.css",
+      "bytes": 18436
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/fc9a93dd241f6b04.js",
+      "bytes": 87533
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/4da6e9aca75e3576.js",
+      "bytes": 93167
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/5c30f7c879a78fbc.js",
+      "bytes": 35973
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/assets/js/npdist.js",
+      "type": "script",
+      "contentType": "text/javascript",
+      "localPath": ".assets/reference-pages/script/f5af0f25279b82d7.js",
+      "bytes": 57733
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/c212f4b505a86352.js",
+      "bytes": 20122
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/60c6bec0033a4245.js",
+      "bytes": 60577
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/0c7178cc6ca34fb1.js",
+      "bytes": 42863
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/24b8bce65fa6e486.js",
+      "bytes": 1485776
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/66bdef0724e53064.js",
+      "bytes": 2942
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/6942f0873b6a7108.js",
+      "bytes": 148471
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/28033e449a31ebcc.js",
+      "bytes": 72214
+    },
+    {
+      "page": "home",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+      "type": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".assets/reference-pages/script/ad33c2df9ada8a66.js",
+      "bytes": 43380
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/header-7.css?v=14",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/1363b85f8dab77f9.css",
+      "bytes": 25238
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/logo/Nepal-flag_qr4ar0j.gif",
+      "type": "image",
+      "contentType": "image/gif",
+      "localPath": ".assets/reference-pages/image/0e16cce1cf76ca8f.gif",
+      "bytes": 28233
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/slider-7.css?v=7",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/9faa1fc19613843a.css",
+      "bytes": 4106
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%20%E0%A4%9C%E0%A5%87%E0%A4%A0_page-0001_ezfyu3g.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/c5f2b87734354a8f.jpg",
+      "bytes": 1827221
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/3_qssflwg_q2ap9jn.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/ce0eb452c33fd4b4.jpg",
+      "bytes": 2682649
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/657158435_952886210438490_7748296782729294520_n_4ajzequ_9c27uhu.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/4bc4f7ad3357a6a9.jpg",
+      "bytes": 216409
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/599607907_122108723571101404_8148511568540459617_n_af5hzub.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/5524b75603c0f5ca.jpg",
+      "bytes": 263293
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/p2_gnbdwom.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/86f30c1aa45758f6.jpeg",
+      "bytes": 198606
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/WhatsApp%20Image%202025-08-28%20at%2016.00.55_caifoe1.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/5a08099b733800ea.jpeg",
+      "bytes": 138834
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/WhatsApp%20Image%202025-08-28%20at%2015.54.25_coelse9.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/aa8ce382797a9075.jpeg",
+      "bytes": 134519
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/carousels/p1_xwumbjp.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/be4e9fafd5e31daa.jpeg",
+      "bytes": 204004
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-minister-4.css?v=3.2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/25f118f80ee18e5a.css",
+      "bytes": 4215
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/minister_photo/photo%20of%20minister%20-%20Copy_fbd5q2y_w8zhuyf.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/908890d54052e5e4.jpg",
+      "bytes": 415598
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/permalinks-9.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/f3e16ce2b67bf97b.css",
+      "bytes": 2365
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/title-6-1.css?v=2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/ecaee2ab3709caec.css",
+      "bytes": 875
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/team-9.css?v=1.2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/db160f3024c7e9cd.css",
+      "bytes": 2342
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/hemraj%20tamang_v5mSI7z4SD_gilbzma_L4eY0l086k_lv3utjb.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/c940adf34036df27.jpg",
+      "bytes": 610413
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/sudip%20sir%20pp_OH5CpWewWC_sxor0hk.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/150912bb2b7e0033.jpg",
+      "bytes": 119448
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/Surya%20sir_yipT0UbhAy_clrlhhr.JPG",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/4dd4189ef0a71354.jpg",
+      "bytes": 168351
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/ourmission-2.css?v=2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/ae54b77080048d42.css",
+      "bytes": 5402
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-template-107.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/86067fd9593dd48f.css",
+      "bytes": 1255
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-template-108.css?v=1",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/93457201f78c4e3b.css",
+      "bytes": 1801
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/pdf_upload/Image%20(48)_78kfxev.pdf",
+      "type": "document",
+      "contentType": "application/pdf",
+      "localPath": ".assets/reference-pages/document/00c4b34f755767ea.pdf",
+      "bytes": 140381
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/pdf_upload/pdf_upload/QRcode_vg2jakb_drgrc9m.pdf",
+      "type": "document",
+      "contentType": "application/pdf",
+      "localPath": ".assets/reference-pages/document/8f3133362398540d.pdf",
+      "bytes": 603217
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/pdf_upload/Image%20(144)_cvpzmj1.pdf",
+      "type": "document",
+      "contentType": "application/pdf",
+      "localPath": ".assets/reference-pages/document/990a8d5aaffaf5df.pdf",
+      "bytes": 3159476
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-106.css?v=1.1",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/ad9464d78531aee2.css",
+      "bytes": 3950
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-92.css?v=1",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/698886c843c70d91.css",
+      "bytes": 4015
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-109.css?v=4.2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/47afa6994fc77057.css",
+      "bytes": 1265
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/block-17.css?v=1.2",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/362bc94ed620aad1.css",
+      "bytes": 3982
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/1000081536_0jl5lh4.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/38dcd10957454b15.jpg",
+      "bytes": 677637
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/IMG_7146_0xxfqks.jpeg",
+      "type": "image",
+      "contentType": "image/mpo",
+      "localPath": ".assets/reference-pages/image/eb40913cff853480.jpeg",
+      "bytes": 4625915
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/kathmandu-mahanagar-sorojrag-kosh_PRLGoFiDa4_JbEeYmq76i_0cpr48q.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/f26750758b6a8141.jpg",
+      "bytes": 206409
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/WhatsApp%20Image%202026-03-16%20at%2010.56.13%20AM_gvxbqds.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/cc62c2c76adcd577.jpeg",
+      "bytes": 216791
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/WhatsApp%20Image%202026-01-13%20at%2012.10.02%20PM_3jJOplypJj_ce7jq1Jju4_rzgqppb.jpeg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/fd1ad3e626b7c3e9.jpeg",
+      "bytes": 251214
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/600335466_122109535761101404_245780234179221752_n_1Enn8MppnK_PD893cxcX3_ku7z1nw.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/498b5dd8460a2130.jpg",
+      "bytes": 173976
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/album_thumbnail/600925397_122109401379101404_3676672462259918851_n_3jr0ajq.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/51678add21387a6f.jpg",
+      "bytes": 292412
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/598384594_122108723451101404_5328046639314312949_n_zSbH8aBQwz_QU2NsSP0Xv_km8wy5x.jpg",
+      "type": "image",
+      "contentType": "image/jpeg",
+      "localPath": ".assets/reference-pages/image/9fdd5a6d584b6461.jpg",
+      "bytes": 311148
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/grapejs/css/footer-8.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/4489ad063be04a3a.css",
+      "bytes": 7199
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdntwo.gov.np/media/files/ilovepdf_merged%20(1)_kxjfnei.pdf",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/app/public/22/posts/1691665949_27.pdf",
+      "type": "document",
+      "contentType": "application/pdf",
+      "localPath": ".assets/reference-pages/document/3b4db8418c930bc6.pdf",
+      "bytes": 6179062
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/media/albums/topbg_CUCDohGKGe_VjmdWXC4XS_L2dmvC8XO5.png",
+      "type": "image",
+      "contentType": "image/png",
+      "localPath": ".assets/reference-pages/image/cc0d28f93a6c619a.png",
+      "bytes": 15563
+    },
+    {
+      "page": "home",
+      "url": "https://giwmscdnone.gov.np/static/ctmlib/npdtpkr.js",
+      "type": "script",
+      "contentType": "text/javascript",
+      "localPath": ".assets/reference-pages/script/1791c13c8a266127.js",
+      "bytes": 27453
+    },
+    {
+      "page": "highlights",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/category-1.css?v=1",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/e80c56536cfa1540.css",
+      "bytes": 7927
+    },
+    {
+      "page": "gallery-list",
+      "url": "https://giwmscdnone.gov.np/static/assets/css/category-1.css",
+      "type": "stylesheet",
+      "contentType": "text/css",
+      "localPath": ".assets/reference-pages/stylesheet/e80c56536cfa1540.css",
+      "bytes": 7927
+    }
+  ]
+}
