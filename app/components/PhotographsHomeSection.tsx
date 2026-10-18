@@ -35,7 +35,7 @@ export default function PhotographsHomeSection() {
             <p>{t("कोषका कार्यक्रम, बैठक र साझेदारीका झलकहरू हेर्नुहोस्।", "Explore moments from Fund programmes, meetings, and partnerships.")}</p>
           </div>
           <a className={styles.allLink} href={GALLERY_LIST_URL}>
-            {t("सबै फोटो सङ्ग्रह", "View all photo albums")}<ArrowRight size={17} aria-hidden="true" />
+            {t("सबै तस्बिर सङ्ग्रह", "View all photo albums")}<ArrowRight size={17} aria-hidden="true" />
           </a>
         </div>
 
@@ -73,7 +73,7 @@ export default function PhotographsHomeSection() {
           </div>
         </div>
         <a className={styles.mobileAllLink} href={GALLERY_LIST_URL}>
-          {t("सबै फोटो सङ्ग्रह हेर्नुहोस्", "Browse all photo albums")}<ArrowRight size={17} aria-hidden="true" />
+          {t("सबै तस्बिर सङ्ग्रह हेर्नुहोस्", "Browse all photo albums")}<ArrowRight size={17} aria-hidden="true" />
         </a>
       </div>
     </section>

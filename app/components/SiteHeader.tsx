@@ -27,8 +27,8 @@ const navGroups = [
     { href: "/services/low-interest-rate", ne: "न्यून ब्याजदर", en: "Lower interest rate" },
     { href: "/services/interest-subsidy", ne: "ब्याज अनुदान", en: "Interest subsidy" },
     { href: "/services/product-marketing", ne: "उत्पादनको बजारीकरण", en: "Product marketing" },
-    { href: "/services/concessional-business-loan", ne: "सहुलियतपूर्ण व्यवसायिक कर्जा", en: "Concessional business loan" },
-    { href: "/services/business-orientation", ne: "व्यवसायिक अभिमुखीकरण तालिम", en: "Business orientation training" },
+    { href: "/services/concessional-business-loan", ne: "सहुलियतपूर्ण व्यावसायिक कर्जा", en: "Concessional business loan" },
+    { href: "/services/business-orientation", ne: "व्यावसायिक अभिमुखीकरण तालिम", en: "Business orientation training" },
   ] },
   { id: "information", ne: "सूचना केन्द्र", en: "Information", items: [
     { href: "/notices", ne: "सूचनाहरू", en: "Notices" },
@@ -42,7 +42,7 @@ const navGroups = [
     { href: "/resources#bulletins", ne: "बुलेटिन", en: "Bulletins" },
     { href: "/resources#publications", ne: "प्रकाशनहरू", en: "Publications" },
     { href: "/gallery#videos", ne: "भिडियोहरू", en: "Videos" },
-    { href: "/gallery", ne: "फोटो ग्यालरी", en: "Photo gallery" },
+    { href: "/gallery", ne: "तस्बिर ग्यालरी", en: "Photo gallery" },
     { href: "/gallery-list", ne: "तस्बिर सङ्ग्रह सूची", en: "Photo album list" },
   ] },
   { id: "downloads", ne: "डाउनलोडहरू", en: "Downloads", items: [
@@ -106,9 +106,9 @@ export default function SiteHeader() {
     <section className="official-banner" aria-label={t("सरकारी वेबसाइट पहिचान", "Government website identity")}>
       <div className="official-inner">
         <span className="official-mark" aria-hidden="true">🇳🇵</span>
-        <span className="official-copy">An official website of the Government of Nepal</span>
+        <span className="official-copy">{t("नेपाल सरकारको आधिकारिक वेबसाइट", "An official website of the Government of Nepal")}</span>
         <button type="button" className="official-toggle" aria-expanded={officialOpen} onClick={() => setOfficialOpen((v) => !v)}>
-          Here’s how you know
+          {t("यो कसरी थाहा पाउने", "Here’s how you know")}
           {officialOpen ? <ChevronUp size={15} aria-hidden="true" /> : <ChevronDown size={15} aria-hidden="true" />}
         </button>
       </div>
@@ -178,7 +178,7 @@ export default function SiteHeader() {
       <section className="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
         <div className="search-panel-heading"><div><span className="eyebrow">{t("वेबसाइट खोजी", "SITE SEARCH")}</span><h2 id="search-title">{t("के खोज्दै हुनुहुन्छ?", "What are you looking for?")}</h2></div><button className="icon-button" type="button" onClick={() => setSearchOpen(false)} aria-label={t("बन्द गर्नुहोस्", "Close search")}><X size={20} /></button></div>
         <form className="search-form" onSubmit={submitSearch}><Search size={20} /><input autoFocus value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t("सेवा, सूचना वा फाराम खोज्नुहोस्", "Search services, notices, or forms")} aria-label={t("खोजी शब्द", "Search terms")} /><button type="submit">{t("खोज्नुहोस्", "Search")}</button></form>
-        {query.trim() ? <div className="search-results" aria-live="polite">{results.length ? results.map((result) => <Link key={result.href + result.title} href={result.href} onClick={() => setSearchOpen(false)}><span><small>{result.type}</small><strong>{result.title}</strong></span><span aria-hidden="true">↗</span></Link>) : <p className="empty-search">{t("यो शब्दसँग मिल्ने सामग्री भेटिएन। अर्को शब्दबाट खोज्नुहोस्।", "No results found. Try another search term.")}</p>}</div> : <div className="search-suggestions"><span>{t("लोकप्रिय खोजी", "Popular searches")}</span>{[t("व्यवसायिक कर्जा", "Business loan"), t("बीमा फाराम", "Insurance form"), t("तालिम", "Training")].map((term) => <button key={term} type="button" onClick={() => setQuery(term)}>{term}</button>)}</div>}
+        {query.trim() ? <div className="search-results" aria-live="polite">{results.length ? results.map((result) => <Link key={result.href + result.title} href={result.href} onClick={() => setSearchOpen(false)}><span><small>{result.type}</small><strong>{result.title}</strong></span><span aria-hidden="true">↗</span></Link>) : <p className="empty-search">{t("यो शब्दसँग मिल्ने सामग्री भेटिएन। अर्को शब्दबाट खोज्नुहोस्।", "No results found. Try another search term.")}</p>}</div> : <div className="search-suggestions"><span>{t("लोकप्रिय खोजी", "Popular searches")}</span>{[t("व्यावसायिक कर्जा", "Business loan"), t("बीमा फाराम", "Insurance form"), t("तालिम", "Training")].map((term) => <button key={term} type="button" onClick={() => setQuery(term)}>{term}</button>)}</div>}
       </section>
     </div>}
     {portalInfo && <div className="search-scrim" onMouseDown={(e) => { if (e.target === e.currentTarget) setPortalInfo(false); }}><section className="portal-dialog" role="dialog" aria-modal="true" aria-labelledby="portal-title"><button type="button" className="icon-button portal-close" onClick={() => setPortalInfo(false)} aria-label={t("बन्द गर्नुहोस्", "Close")}><X size={19} /></button><span className="portal-icon"><ExternalLink size={22} /></span><h2 id="portal-title">{t("अनलाइन दर्ता पोर्टल", "Online registration portal")}</h2><p>{t("यो पुनःडिजाइन नमूनाले व्यक्तिगत विवरण संकलन गर्दैन। अनलाइन आवेदनका लागि YSEF को छुट्टै दर्ता पोर्टल खुल्छ।", "This redesign prototype does not collect personal information. Online applications continue on YSEF’s separate registration portal.")}</p><a className="button button-primary" href={registrationUrl} target="_blank" rel="noopener noreferrer" onClick={() => setPortalInfo(false)}>{t("दर्ता पोर्टल खोल्नुहोस्", "Open registration portal")}<ExternalLink size={15} /></a></section></div>}

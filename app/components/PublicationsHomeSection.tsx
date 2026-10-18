@@ -78,7 +78,7 @@ export default function PublicationsHomeSection() {
 
         <p className={styles.note}>
           <span aria-hidden="true">i</span>
-          {t("यो पुनःडिजाइनको नमूना खण्ड: жагсаалтын гарчиг болон ангиллыг тайлбарлах зорилготой. Хамгийн сүүлийн хувилбар, файл, огноог албан ёсны YSEF сайтаас баталгаажуулна уу।", "Illustrative redesign content: titles and categories demonstrate the layout. Confirm the latest editions, files, and dates on the official YSEF website.")}
+          {t("यो पुनःडिजाइनको नमुना खण्ड हो। यहाँका शीर्षक र वर्गीकरण उदाहरणका लागि राखिएका हुन्। पछिल्लो संस्करण, फाइल र मिति आधिकारिक YSEF वेबसाइटमा पुष्टि गर्नुहोस्।", "Illustrative redesign content: titles and categories demonstrate the layout. Confirm the latest editions, files, and dates on the official YSEF website.")}
         </p>
       </div>
     </section>

@@ -28,9 +28,9 @@ export default function GalleryListPage() {
   return <div className="inner-page">
     <div className="page-intro-band">
       <div className="wrap">
-        <div className="breadcrumbs"><Link href="/">{t("गृह पृष्ठ", "Home")}</Link><span>/</span><Link href="/gallery">{t("मिडिया केन्द्र", "Media center")}</Link><span>/</span><span>{t("फोटो ग्यालरी", "Photo gallery")}</span></div>
+        <div className="breadcrumbs"><Link href="/">{t("गृह पृष्ठ", "Home")}</Link><span>/</span><Link href="/gallery">{t("मिडिया केन्द्र", "Media center")}</Link><span>/</span><span>{t("तस्बिर ग्यालरी", "Photo gallery")}</span></div>
         <span className="eyebrow">{t("कार्यक्रम र गतिविधि", "EVENTS AND ACTIVITIES")}</span>
-        <h1>{t("फोटो ग्यालरी", "Photo gallery")}</h1>
+        <h1>{t("तस्बिर ग्यालरी", "Photo gallery")}</h1>
         <p>{t("कोषका कार्यक्रम, तालिम, साझेदारी र सार्वजनिक भेटघाटका तस्बिरहरू हेर्नुहोस्।", "Browse photographs from the Fund’s programmes, training, partnerships, and public events.")}</p>
       </div>
     </div>
@@ -38,7 +38,7 @@ export default function GalleryListPage() {
     <section className={`wrap inner-content ${styles.content}`} aria-labelledby="gallery-list-heading">
       <div className={styles.headingRow}>
         <div>
-          <span className="eyebrow">{t("फोटो अभिलेख", "PHOTO ARCHIVE")}</span>
+          <span className="eyebrow">{t("तस्बिर अभिलेख", "PHOTO ARCHIVE")}</span>
           <h2 id="gallery-list-heading">{t("कार्यक्रमका तस्बिरहरू", "Photographs from YSEF")}</h2>
           <p>{t("प्रत्येक एल्बमको मूल विवरण र थप तस्बिरका लागि आधिकारिक YSEF साइट खोल्नुहोस्।", "Open the official YSEF site for each album’s original details and additional photographs.")}</p>
         </div>
