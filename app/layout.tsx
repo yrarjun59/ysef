@@ -9,7 +9,6 @@ import "./globals.css";
 import { LocaleProvider } from "./components/LocaleContext";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
-import AccessibilityWidget from "./components/AccessibilityWidget";
 export const metadata: Metadata = {
   title: "Youth and Small Entrepreneur Self-Development Fund | YSEF",
   description: "Services, notices, and resources from the Youth and Small Entrepreneur Self-Development Fund. Redesign prototype.",
@@ -20,5 +19,5 @@ export const metadata: Metadata = {
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ne"><body id="top"><LocaleProvider><SiteHeader /><main id="main-content">{children}</main><SiteFooter /><AccessibilityWidget /></LocaleProvider></body></html>;
+  return <html lang="ne"><body id="top"><LocaleProvider><SiteHeader /><main id="main-content">{children}</main><SiteFooter /></LocaleProvider></body></html>;
 }

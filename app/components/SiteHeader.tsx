@@ -7,6 +7,7 @@ import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { Bell, BellRing, BriefcaseBusiness, ChevronDown, ChevronUp, ExternalLink, FileText, House, Landmark, LockKeyhole, Menu, Search, X } from "lucide-react";
 import { useLocale } from "./LocaleContext";
 import NepalDateTime from "./NepalDateTime";
+import AccessibilityWidget from "./AccessibilityWidget";
 import { services, notices, resources, officials, galleryAlbums } from "../data";
 
 const navGroups = [
@@ -140,6 +141,7 @@ export default function SiteHeader() {
             <button type="button" className={`language-option ${lang === "en" ? "is-active" : ""}`} onClick={() => setLang("en")} aria-pressed={lang === "en"} lang="en">EN</button>
             <button type="button" className={`language-option ${lang === "ne" ? "is-active" : ""}`} onClick={() => setLang("ne")} aria-pressed={lang === "ne"} lang="ne">ने</button>
           </div>
+          <AccessibilityWidget />
           <button type="button" className="mobile-menu-button" aria-label={mobileOpen ? t("मेनु बन्द गर्नुहोस्", "Close menu") : t("मेनु खोल्नुहोस्", "Open menu")} aria-expanded={mobileOpen} onClick={() => setMobileOpen((v) => !v)}>{mobileOpen ? <X size={21} /> : <Menu size={21} />}</button>
         </div>
       </div>
